@@ -6,6 +6,72 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 182.88 81.28)
+		(size 27.94 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "06d78271-6402-4c0d-bca0-d55cdd6835cb")
+		(property "Sheetname" "pwm_driver"
+			(at 182.88 80.5684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pwm_driver.kicad_sch"
+			(at 182.88 99.6446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SCL" input
+			(at 182.88 83.82 180)
+			(uuid "33778ce7-3367-4513-a8a8-6b854ef167f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 182.88 86.36 180)
+			(uuid "7b6c5d68-4a0e-4b5a-882f-f34e243bc919")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "pisarz-mainboard"
+				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 127 80.01)
 		(size 30.48 20.32)
 		(exclude_from_sim no)

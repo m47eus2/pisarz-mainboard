@@ -430,7 +430,7 @@
         "uuid": "3fa3a621-8f50-4a33-bd41-24b098d8d0ef"
       }
     ],
-    "used_designators": "#FLG1-2,#PWR1-44,C1-20,D1-4,J1-5,R1-13,SW1-3,U1-6,Y1-2",
+    "used_designators": "#FLG1-2,#PWR1-48,C1-20,D1-4,J1-8,R1-13,SW1-3,U1-6,Y1-2",
     "variants": []
   },
   "sheets": [
@@ -445,10 +445,6 @@
     [
       "5eae9f20-c0db-468d-b61d-7762ef488b79",
       "usb-c"
-    ],
-    [
-      "63bbb757-f313-4fe3-83b1-f435e5251f47",
-      "power"
     ],
     [
       "06d78271-6402-4c0d-bca0-d55cdd6835cb",

@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 182.88 81.28)
-		(size 27.94 17.78)
+		(at 179.07 80.01)
+		(size 30.48 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "06d78271-6402-4c0d-bca0-d55cdd6835cb")
 		(property "Sheetname" "pwm_driver"
-			(at 182.88 80.5684 0)
+			(at 179.07 79.2984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +33,7 @@
 			)
 		)
 		(property "Sheetfile" "pwm_driver.kicad_sch"
-			(at 182.88 99.6446 0)
+			(at 179.07 100.9146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -44,7 +44,7 @@
 			)
 		)
 		(pin "SCL" input
-			(at 182.88 83.82 180)
+			(at 179.07 82.55 180)
 			(uuid "33778ce7-3367-4513-a8a8-6b854ef167f9")
 			(effects
 				(font
@@ -54,7 +54,7 @@
 			)
 		)
 		(pin "SDA" bidirectional
-			(at 182.88 86.36 180)
+			(at 179.07 85.09 180)
 			(uuid "7b6c5d68-4a0e-4b5a-882f-f34e243bc919")
 			(effects
 				(font
@@ -72,7 +72,7 @@
 		)
 	)
 	(sheet
-		(at 127 80.01)
+		(at 129.54 80.01)
 		(size 30.48 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -88,7 +88,7 @@
 		)
 		(uuid "31dc4987-9523-4ae4-af06-c8582b12974d")
 		(property "Sheetname" "mcu"
-			(at 127 79.2984 0)
+			(at 129.54 79.2984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -99,7 +99,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 127 100.9146 0)
+			(at 129.54 100.9146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -118,7 +118,7 @@
 		)
 	)
 	(sheet
-		(at 73.66 80.01)
+		(at 77.47 80.01)
 		(size 30.48 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -134,7 +134,7 @@
 		)
 		(uuid "5eae9f20-c0db-468d-b61d-7762ef488b79")
 		(property "Sheetname" "usb-c"
-			(at 73.66 79.2984 0)
+			(at 77.47 79.2984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -145,7 +145,7 @@
 			)
 		)
 		(property "Sheetfile" "usb-c.kicad_sch"
-			(at 73.66 100.9146 0)
+			(at 77.47 100.9146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -156,7 +156,7 @@
 			)
 		)
 		(pin "RX" input
-			(at 104.14 82.55 0)
+			(at 107.95 82.55 0)
 			(uuid "77a3e62b-a777-4726-8005-abeb946e4a67")
 			(effects
 				(font
@@ -166,7 +166,7 @@
 			)
 		)
 		(pin "TX" output
-			(at 104.14 85.09 0)
+			(at 107.95 85.09 0)
 			(uuid "e473cf01-e22a-4796-8cc2-e13ef9d99227")
 			(effects
 				(font
@@ -179,52 +179,6 @@
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef"
 					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 127 41.91)
-		(size 30.48 20.32)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "63bbb757-f313-4fe3-83b1-f435e5251f47")
-		(property "Sheetname" "power"
-			(at 127 41.1984 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "power.kicad_sch"
-			(at 127 62.8146 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "pisarz-mainboard"
-				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef"
-					(page "4")
 				)
 			)
 		)

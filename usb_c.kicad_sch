@@ -3120,19 +3120,9 @@
 		)
 		(uuid "359901a9-a376-469e-ad67-ea5c1aa8743e")
 	)
-	(text "Have to check it with waveshare board"
-		(exclude_from_sim no)
-		(at 115.062 80.518 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3aec1741-586f-4d4a-8a40-7e236c131a5d")
-	)
 	(text "Voltage Regulator\nVBUS -> 3V3"
 		(exclude_from_sim no)
-		(at 82.55 143.002 0)
+		(at 82.296 141.732 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -3281,12 +3271,44 @@
 		(uuid "eb57dbe8-1bfe-4b6f-8d8d-b3eff29b36ba")
 	)
 	(no_connect
+		(at 91.44 90.17)
+		(uuid "0bffd827-0704-421c-b0ed-09584203858a")
+	)
+	(no_connect
+		(at 91.44 64.77)
+		(uuid "283de7c5-c720-443a-9f7e-488ac00ebc70")
+	)
+	(no_connect
 		(at 223.52 88.9)
 		(uuid "3f313476-b5da-4c0c-87da-fe29adef57a8")
 	)
 	(no_connect
+		(at 91.44 92.71)
+		(uuid "495a5741-9370-4ac6-b915-c38cc24c8fc9")
+	)
+	(no_connect
+		(at 91.44 95.25)
+		(uuid "661a81ce-dbc2-4476-ad53-1005b1eaaa21")
+	)
+	(no_connect
 		(at 223.52 91.44)
 		(uuid "66d23c18-77f3-4e31-8976-00254f0df012")
+	)
+	(no_connect
+		(at 91.44 97.79)
+		(uuid "741da6a9-c429-4596-8697-e7340dca87a9")
+	)
+	(no_connect
+		(at 91.44 82.55)
+		(uuid "8cb3faa0-5366-4dbf-9e48-cd6a17469a9e")
+	)
+	(no_connect
+		(at 91.44 67.31)
+		(uuid "cbb100f2-5639-494e-8f9b-7e531e7e4dad")
+	)
+	(no_connect
+		(at 91.44 74.93)
+		(uuid "e5e834e3-c9ab-4c54-90e8-0b600a85fd2d")
 	)
 	(wire
 		(pts
@@ -3410,7 +3432,7 @@
 	)
 	(polyline
 		(pts
-			(xy 12.7 134.62) (xy 153.67 134.62)
+			(xy 12.7 133.35) (xy 153.67 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3437,6 +3459,16 @@
 			(type default)
 		)
 		(uuid "1f838607-af2e-4ef7-a555-c2a19ddbde7d")
+	)
+	(wire
+		(pts
+			(xy 91.44 85.09) (xy 99.06 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20114e78-7df3-4127-b309-56a408460be5")
 	)
 	(wire
 		(pts
@@ -3657,6 +3689,16 @@
 			(type default)
 		)
 		(uuid "6956f504-9aab-40de-9653-4ba9ef0a5136")
+	)
+	(wire
+		(pts
+			(xy 99.06 85.09) (xy 99.06 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73108289-fd0c-4df4-933f-948536e93acf")
 	)
 	(wire
 		(pts
@@ -3937,6 +3979,16 @@
 			(type default)
 		)
 		(uuid "ac496ad3-c7c8-4b4e-9c6d-ba5ecfdd16aa")
+	)
+	(wire
+		(pts
+			(xy 99.06 95.25) (xy 99.06 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6d5dbcb-797e-4556-b69e-fd7d41abc166")
 	)
 	(wire
 		(pts
@@ -4278,7 +4330,7 @@
 		)
 		(uuid "7a2f0915-7058-4657-9457-c07f7bd3130f")
 	)
-	(hierarchical_label "TX"
+	(hierarchical_label "CP2102_TX"
 		(shape output)
 		(at 95.25 59.69 0)
 		(effects
@@ -4289,7 +4341,7 @@
 		)
 		(uuid "94318df8-410a-42ad-bee1-4b6efbd983a4")
 	)
-	(hierarchical_label "RX"
+	(hierarchical_label "CP2102_RX"
 		(shape input)
 		(at 95.25 62.23 0)
 		(effects
@@ -5297,7 +5349,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 66.04 54.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5876,6 +5928,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 99.06 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88d00e2c-d2ae-4d76-bdb0-cdbb45a049b8")
+		(property "Reference" "R14"
+			(at 101.6 90.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 101.6 92.7099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.282 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 99.06 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ed0d6cd4-e6dc-4b94-8266-2d62639de22a")
+		)
+		(pin "1"
+			(uuid "5f246e03-ac32-472a-972a-d5e7efe13054")
+		)
+		(instances
+			(project "pisarz-mainboard"
+				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/5eae9f20-c0db-468d-b61d-7762ef488b79"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 82.55 180.34 0)
 		(unit 1)
@@ -6439,6 +6573,84 @@
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/5eae9f20-c0db-468d-b61d-7762ef488b79"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 99.06 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8cd0d70-0441-47d1-93bd-3ac4075be260")
+		(property "Reference" "#PWR049"
+			(at 99.06 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.06 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a16e3f48-bd47-4b2f-88b1-bf407ec2671d")
+		)
+		(instances
+			(project "pisarz-mainboard"
+				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/5eae9f20-c0db-468d-b61d-7762ef488b79"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)

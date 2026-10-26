@@ -5,6 +5,206 @@
 	(uuid "3fa3a621-8f50-4a33-bd41-24b098d8d0ef")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 121.92 100.33) (xy 130.81 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ecfdcd1-0528-492b-b4db-d70db2df353c")
+	)
+	(wire
+		(pts
+			(xy 121.92 100.33) (xy 121.92 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1058d3ae-2f8a-4137-97c9-59f952157c33")
+	)
+	(wire
+		(pts
+			(xy 168.91 82.55) (xy 179.07 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13ed8e57-8333-45a2-b696-a1a4d6665ebc")
+	)
+	(wire
+		(pts
+			(xy 130.81 125.73) (xy 121.92 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5040d9cb-16fe-4cf0-8c1a-e04447ca87ad")
+	)
+	(wire
+		(pts
+			(xy 107.95 142.24) (xy 119.38 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5353e7de-cfd9-4075-80d0-c2ec9a164188")
+	)
+	(wire
+		(pts
+			(xy 168.91 100.33) (xy 168.91 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "635899f7-45c6-42c1-b542-f356f9561578")
+	)
+	(wire
+		(pts
+			(xy 121.92 125.73) (xy 121.92 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67adab43-6c5e-449d-9cb6-d639964db933")
+	)
+	(wire
+		(pts
+			(xy 121.92 144.78) (xy 107.95 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67db2126-c3e6-4e7f-b43b-238472c74c2c")
+	)
+	(wire
+		(pts
+			(xy 171.45 85.09) (xy 179.07 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78e4177f-d3aa-4048-9e0f-4e4b4b200f1d")
+	)
+	(wire
+		(pts
+			(xy 107.95 114.3) (xy 130.81 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a242164-e82f-434c-ba90-aefacad3d439")
+	)
+	(wire
+		(pts
+			(xy 119.38 102.87) (xy 130.81 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c074fc9-8172-4d1c-993e-bdeef0258087")
+	)
+	(wire
+		(pts
+			(xy 119.38 142.24) (xy 119.38 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e2feb63-bc2b-46f8-8aed-2adefca51e1c")
+	)
+	(wire
+		(pts
+			(xy 161.29 102.87) (xy 171.45 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9efe6e7b-911b-477c-97c8-d75fa632d6f9")
+	)
+	(wire
+		(pts
+			(xy 119.38 102.87) (xy 119.38 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb5f185d-70aa-4ee5-88d7-23d5f16dc41d")
+	)
+	(wire
+		(pts
+			(xy 119.38 85.09) (xy 107.95 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc9ae048-efc8-48ee-bd0a-00d3802c4f06")
+	)
+	(wire
+		(pts
+			(xy 107.95 111.76) (xy 130.81 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2cb58bf-3d6d-4d80-87bf-85a0a289fdea")
+	)
+	(wire
+		(pts
+			(xy 171.45 102.87) (xy 171.45 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d366925c-880e-4af9-b8c3-01ce765d5ca2")
+	)
+	(wire
+		(pts
+			(xy 121.92 82.55) (xy 107.95 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d74effff-92c4-4308-ad19-db8b8d66b4b8")
+	)
+	(wire
+		(pts
+			(xy 161.29 100.33) (xy 168.91 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0f4c8fb-2a4b-4129-a70c-b7b4d7676d27")
+	)
+	(wire
+		(pts
+			(xy 119.38 123.19) (xy 130.81 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f51f1124-47c0-4036-9420-3d770243b337")
+	)
 	(sheet
 		(at 179.07 80.01)
 		(size 30.48 20.32)
@@ -21,7 +221,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "06d78271-6402-4c0d-bca0-d55cdd6835cb")
-		(property "Sheetname" "pwm_driver"
+		(property "Sheetname" "pwm-driver"
 			(at 179.07 79.2984 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -72,8 +272,8 @@
 		)
 	)
 	(sheet
-		(at 129.54 80.01)
-		(size 30.48 20.32)
+		(at 130.81 97.79)
+		(size 30.48 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -88,7 +288,7 @@
 		)
 		(uuid "31dc4987-9523-4ae4-af06-c8582b12974d")
 		(property "Sheetname" "mcu"
-			(at 129.54 79.2984 0)
+			(at 130.81 97.0784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -99,7 +299,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 129.54 100.9146 0)
+			(at 130.81 128.8546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -107,6 +307,86 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "USB_D+" bidirectional
+			(at 130.81 111.76 180)
+			(uuid "bd2487a1-daef-49b2-8c78-b25c1d70d8b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_D-" bidirectional
+			(at 130.81 114.3 180)
+			(uuid "f19cb22b-a955-4794-893e-fba06608b4c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_SCL" output
+			(at 161.29 100.33 0)
+			(uuid "8216112b-7480-468a-af49-b79c7088ba5b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_SDA" bidirectional
+			(at 161.29 102.87 0)
+			(uuid "1b24fe56-315e-44a4-9a2a-911880541472")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART1_RX" input
+			(at 130.81 100.33 180)
+			(uuid "b0d88d32-c77f-4222-acee-b65a65a8695b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART1_TX" output
+			(at 130.81 102.87 180)
+			(uuid "6cd9e4f5-4776-42d1-b425-a06413626f69")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART2_RX" input
+			(at 130.81 123.19 180)
+			(uuid "7cdbd1c5-0cbe-4497-b3a5-47addb6dbce7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART2_TX" output
+			(at 130.81 125.73 180)
+			(uuid "83fe4a46-2051-4853-89ad-1b88cfd27533")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -118,8 +398,74 @@
 		)
 	)
 	(sheet
+		(at 77.47 139.7)
+		(size 30.48 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4d2302dd-96c1-4081-a707-3c6abab7239a")
+		(property "Sheetname" "esp32-module-connector"
+			(at 77.47 138.9884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "esp32_module_connector.kicad_sch"
+			(at 77.47 159.3346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "esp32_RX" input
+			(at 107.95 144.78 0)
+			(uuid "ec345119-80c3-49d9-b8e3-2b88ad0d6eb8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "esp32_TX" output
+			(at 107.95 142.24 0)
+			(uuid "5c58cd7b-49b3-4815-aa40-c83db1364d90")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "pisarz-mainboard"
+				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 77.47 80.01)
-		(size 30.48 20.32)
+		(size 30.48 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -144,8 +490,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "usb-c.kicad_sch"
-			(at 77.47 100.9146 0)
+		(property "Sheetfile" "usb_c.kicad_sch"
+			(at 77.47 99.6446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -155,9 +501,9 @@
 				(justify left top)
 			)
 		)
-		(pin "RX" input
-			(at 107.95 82.55 0)
-			(uuid "77a3e62b-a777-4726-8005-abeb946e4a67")
+		(pin "CP2102_RX" input
+			(at 107.95 85.09 0)
+			(uuid "9f43ae08-e5fc-4bfc-be8f-a3c609bd5b5e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -165,9 +511,9 @@
 				(justify right)
 			)
 		)
-		(pin "TX" output
-			(at 107.95 85.09 0)
-			(uuid "e473cf01-e22a-4796-8cc2-e13ef9d99227")
+		(pin "CP2102_TX" output
+			(at 107.95 82.55 0)
+			(uuid "0472d953-9791-45fe-932e-a9f14da9ed50")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -179,6 +525,72 @@
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 77.47 109.22)
+		(size 30.48 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "cf797874-899b-4ea5-b16c-e496b3fcc26d")
+		(property "Sheetname" "usb-c-dfu"
+			(at 77.47 108.5084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_c_dfu.kicad_sch"
+			(at 77.47 128.8546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_D+" bidirectional
+			(at 107.95 111.76 0)
+			(uuid "42bb42cd-f21e-408a-a9af-ceaea21a1cda")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_D-" bidirectional
+			(at 107.95 114.3 0)
+			(uuid "2d6522f3-cda6-423e-ad70-75d36deb7b1c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "pisarz-mainboard"
+				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef"
+					(page "4")
 				)
 			)
 		)

@@ -430,7 +430,7 @@
         "uuid": "3fa3a621-8f50-4a33-bd41-24b098d8d0ef"
       }
     ],
-    "used_designators": "#FLG1-2,#PWR1-48,C1-20,D1-4,J1-8,R1-13,SW1-3,U1-6,Y1-2",
+    "used_designators": "#FLG1-2,#PWR1-56,C1-25,D1-7,J1-10,R1-22,SW1-3,U1-9,Y1-2",
     "variants": []
   },
   "sheets": [
@@ -447,8 +447,16 @@
       "usb-c"
     ],
     [
+      "cf797874-899b-4ea5-b16c-e496b3fcc26d",
+      "usb-c-dfu"
+    ],
+    [
       "06d78271-6402-4c0d-bca0-d55cdd6835cb",
-      "pwm_driver"
+      "pwm-driver"
+    ],
+    [
+      "4d2302dd-96c1-4081-a707-3c6abab7239a",
+      "esp32-module-connector"
     ]
   ],
   "text_variables": {},

@@ -3156,6 +3156,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 118.11) (xy 73.66 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b42f44a-3858-4918-ab73-b28ce2a05e04")
+	)
+	(wire
+		(pts
 			(xy 124.46 82.55) (xy 133.35 82.55)
 		)
 		(stroke
@@ -3286,7 +3296,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 105.41) (xy 133.35 105.41)
+			(xy 124.46 105.41) (xy 137.16 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3313,16 +3323,6 @@
 			(type default)
 		)
 		(uuid "24fbdd89-6994-4365-aeec-9770d622ebf5")
-	)
-	(wire
-		(pts
-			(xy 64.77 115.57) (xy 73.66 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29b179cf-383e-4709-a7ae-622c7f2ce8a5")
 	)
 	(wire
 		(pts
@@ -3363,6 +3363,16 @@
 			(type default)
 		)
 		(uuid "2eab1abf-bae7-42ac-b07b-f611e1e41ffa")
+	)
+	(wire
+		(pts
+			(xy 172.72 125.73) (xy 179.07 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30b76b6b-7360-405d-9b0f-f385d815af4c")
 	)
 	(wire
 		(pts
@@ -3456,7 +3466,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 80.01) (xy 133.35 80.01)
+			(xy 124.46 80.01) (xy 137.16 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3616,13 +3626,13 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 118.11) (xy 73.66 118.11)
+			(xy 172.72 123.19) (xy 179.07 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6a118397-3162-47c3-9b0e-c4c3ba78b319")
+		(uuid "6c740d91-5c68-4374-96e5-3cea08355a98")
 	)
 	(wire
 		(pts
@@ -3683,6 +3693,16 @@
 			(type default)
 		)
 		(uuid "73db6059-302d-452e-b2cb-7c59d5d8d461")
+	)
+	(wire
+		(pts
+			(xy 172.72 128.27) (xy 179.07 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79963ad1-9368-4689-866e-1bb963adb5df")
 	)
 	(wire
 		(pts
@@ -3906,7 +3926,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 77.47) (xy 133.35 77.47)
+			(xy 124.46 77.47) (xy 137.16 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4296,6 +4316,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 115.57) (xy 73.66 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6617c1f-b57b-4804-9b6d-bb7e2195bd96")
+	)
+	(wire
+		(pts
 			(xy 113.03 48.26) (xy 124.46 48.26)
 		)
 		(stroke
@@ -4326,7 +4356,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 102.87) (xy 133.35 102.87)
+			(xy 124.46 102.87) (xy 137.16 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4363,16 +4393,6 @@
 			(type default)
 		)
 		(uuid "fc1a213f-f3b7-4559-b9c4-c40114d388de")
-	)
-	(label "USB_D-"
-		(at 133.35 102.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "001c4df8-c4ed-4ac2-af48-b7e476c09476")
 	)
 	(label "PA15"
 		(at 133.35 113.03 180)
@@ -4453,16 +4473,6 @@
 			(justify left bottom)
 		)
 		(uuid "263e546c-2e3e-4412-ad21-880fd53ff2c5")
-	)
-	(label "USB_D+"
-		(at 133.35 105.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "27c24e45-3737-4f3d-b030-889adfe54c62")
 	)
 	(label "PA0"
 		(at 133.35 74.93 180)
@@ -4803,6 +4813,94 @@
 			(justify left bottom)
 		)
 		(uuid "f62437b8-5d8b-4788-bcf9-bd8262e56f17")
+	)
+	(hierarchical_label "UART1_TX"
+		(shape output)
+		(at 137.16 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "155948fd-f3f6-4f87-b64c-073c055da758")
+	)
+	(hierarchical_label "USB_D-"
+		(shape bidirectional)
+		(at 137.16 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "36bee424-1085-4524-ae4e-13143a61b21d")
+	)
+	(hierarchical_label "USB_D+"
+		(shape bidirectional)
+		(at 137.16 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4a1bdf8f-48ec-4117-90b6-e5e29056dbdb")
+	)
+	(hierarchical_label "I2C_SCL"
+		(shape output)
+		(at 62.23 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "513e59d7-89ca-4fad-bf0c-fbf04beb8145")
+	)
+	(hierarchical_label "UART2_RX"
+		(shape input)
+		(at 137.16 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "589b0fe7-2d8e-41e9-8d92-15c397f6c85d")
+	)
+	(hierarchical_label "UART2_TX"
+		(shape output)
+		(at 137.16 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a5c3b6fb-4f2b-4e1d-84de-bb738185ffe4")
+	)
+	(hierarchical_label "I2C_SDA"
+		(shape bidirectional)
+		(at 62.23 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b269e7ee-aff7-4e73-88d4-c8606a936b7a")
+	)
+	(hierarchical_label "UART1_RX"
+		(shape input)
+		(at 137.16 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fb02639e-185f-4f8d-81a1-769b5bd25422")
 	)
 	(symbol
 		(lib_id "power:+3.3V")

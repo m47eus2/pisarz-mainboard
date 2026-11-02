@@ -5843,6 +5843,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 210.82 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14898dff-b0de-4f61-a7b7-2ddf0d856e13")
+		(property "Reference" "#PWR067"
+			(at 210.82 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V-SERVO"
+			(at 210.82 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 210.82 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dd964355-423d-4276-bad0-be1436d8dcec")
+		)
+		(instances
+			(project "pisarz-mainboard"
+				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/06d78271-6402-4c0d-bca0-d55cdd6835cb"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x16_Pin")
 		(at 243.84 64.77 0)
 		(mirror y)
@@ -5959,6 +6037,84 @@
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/06d78271-6402-4c0d-bca0-d55cdd6835cb"
 					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 210.82 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27763669-54c1-4119-ab8f-1293f37dcd5e")
+		(property "Reference" "#PWR068"
+			(at 210.82 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V-SERVO"
+			(at 210.82 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 210.82 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e526dca4-8f9f-4c00-8699-cf23607044a0")
+		)
+		(instances
+			(project "pisarz-mainboard"
+				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/06d78271-6402-4c0d-bca0-d55cdd6835cb"
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -6796,84 +6952,6 @@
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/06d78271-6402-4c0d-bca0-d55cdd6835cb"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 210.82 106.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8bdab8f1-ee3a-4a52-b024-b0bbf8941974")
-		(property "Reference" "#PWR047"
-			(at 210.82 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 210.82 101.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 210.82 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 210.82 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "825a2b07-4f45-4a10-a628-d459b6559262")
-		)
-		(instances
-			(project "pisarz-mainboard"
-				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/06d78271-6402-4c0d-bca0-d55cdd6835cb"
-					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -7877,84 +7955,6 @@
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/06d78271-6402-4c0d-bca0-d55cdd6835cb"
 					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 210.82 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec1ba21b-7d77-4076-b31e-755f8bab8d38")
-		(property "Reference" "#PWR045"
-			(at 210.82 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 210.82 39.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 210.82 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 210.82 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dc032eac-e939-439a-9c45-21b1c75645ca")
-		)
-		(instances
-			(project "pisarz-mainboard"
-				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/06d78271-6402-4c0d-bca0-d55cdd6835cb"
-					(reference "#PWR045")
 					(unit 1)
 				)
 			)

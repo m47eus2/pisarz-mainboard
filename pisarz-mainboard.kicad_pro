@@ -430,7 +430,7 @@
         "uuid": "3fa3a621-8f50-4a33-bd41-24b098d8d0ef"
       }
     ],
-    "used_designators": "#FLG1-2,#PWR1-56,C1-25,D1-7,J1-10,R1-22,SW1-3,U1-9,Y1-2",
+    "used_designators": "#FLG1-2,#PWR1-68,C1-25,D1-7,J1-11,R1-22,SW1-3,U1-9,Y1-2",
     "variants": []
   },
   "sheets": [
@@ -457,6 +457,10 @@
     [
       "4d2302dd-96c1-4081-a707-3c6abab7239a",
       "esp32-module-connector"
+    ],
+    [
+      "4d117854-2c92-458b-bce6-6385520cee86",
+      "power"
     ]
   ],
   "text_variables": {},

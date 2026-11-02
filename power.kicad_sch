@@ -3331,7 +3331,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "500u"
+		(property "Value" "2m"
 			(at 48.26 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3819,7 +3819,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 104.902 132.08 90)
 			(hide yes)
 			(show_name no)
@@ -4795,7 +4795,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 113.792 132.08 90)
 			(hide yes)
 			(show_name no)
@@ -5049,7 +5049,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 119.0752 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -5287,7 +5287,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
 			(at 82.55 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -5460,7 +5460,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 87.122 132.08 90)
 			(hide yes)
 			(show_name no)

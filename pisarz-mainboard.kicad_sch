@@ -7,7 +7,7 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 171.45 100.33) (xy 161.29 100.33)
+			(xy 170.18 85.09) (xy 160.02 85.09)
 		)
 		(stroke
 			(width 0)
@@ -17,7 +17,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 100.33) (xy 130.81 100.33)
+			(xy 120.65 85.09) (xy 129.54 85.09)
 		)
 		(stroke
 			(width 0)
@@ -27,7 +27,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 100.33) (xy 121.92 83.82)
+			(xy 120.65 85.09) (xy 120.65 68.58)
 		)
 		(stroke
 			(width 0)
@@ -37,7 +37,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 102.87) (xy 173.99 86.36)
+			(xy 172.72 87.63) (xy 172.72 71.12)
 		)
 		(stroke
 			(width 0)
@@ -47,7 +47,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 83.82) (xy 171.45 100.33)
+			(xy 170.18 68.58) (xy 170.18 85.09)
 		)
 		(stroke
 			(width 0)
@@ -57,7 +57,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 102.87) (xy 173.99 102.87)
+			(xy 160.02 87.63) (xy 172.72 87.63)
 		)
 		(stroke
 			(width 0)
@@ -67,7 +67,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 86.36) (xy 180.34 86.36)
+			(xy 172.72 71.12) (xy 179.07 71.12)
 		)
 		(stroke
 			(width 0)
@@ -77,7 +77,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 125.73) (xy 121.92 125.73)
+			(xy 129.54 110.49) (xy 120.65 110.49)
 		)
 		(stroke
 			(width 0)
@@ -87,7 +87,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 142.24) (xy 119.38 142.24)
+			(xy 106.68 127) (xy 118.11 127)
 		)
 		(stroke
 			(width 0)
@@ -97,7 +97,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 125.73) (xy 121.92 144.78)
+			(xy 120.65 110.49) (xy 120.65 129.54)
 		)
 		(stroke
 			(width 0)
@@ -107,7 +107,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 144.78) (xy 107.95 144.78)
+			(xy 120.65 129.54) (xy 106.68 129.54)
 		)
 		(stroke
 			(width 0)
@@ -117,7 +117,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 114.3) (xy 130.81 114.3)
+			(xy 106.68 99.06) (xy 129.54 99.06)
 		)
 		(stroke
 			(width 0)
@@ -127,7 +127,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 102.87) (xy 130.81 102.87)
+			(xy 118.11 87.63) (xy 129.54 87.63)
 		)
 		(stroke
 			(width 0)
@@ -137,7 +137,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 142.24) (xy 119.38 123.19)
+			(xy 118.11 127) (xy 118.11 107.95)
 		)
 		(stroke
 			(width 0)
@@ -147,7 +147,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 114.3) (xy 180.34 114.3)
+			(xy 160.02 99.06) (xy 179.07 99.06)
 		)
 		(stroke
 			(width 0)
@@ -157,7 +157,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 102.87) (xy 119.38 86.36)
+			(xy 118.11 87.63) (xy 118.11 71.12)
 		)
 		(stroke
 			(width 0)
@@ -167,7 +167,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 86.36) (xy 107.95 86.36)
+			(xy 118.11 71.12) (xy 106.68 71.12)
 		)
 		(stroke
 			(width 0)
@@ -177,7 +177,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 111.76) (xy 130.81 111.76)
+			(xy 106.68 96.52) (xy 129.54 96.52)
 		)
 		(stroke
 			(width 0)
@@ -187,7 +187,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 83.82) (xy 107.95 83.82)
+			(xy 120.65 68.58) (xy 106.68 68.58)
 		)
 		(stroke
 			(width 0)
@@ -197,7 +197,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 111.76) (xy 180.34 111.76)
+			(xy 160.02 96.52) (xy 179.07 96.52)
 		)
 		(stroke
 			(width 0)
@@ -207,7 +207,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 83.82) (xy 171.45 83.82)
+			(xy 179.07 68.58) (xy 170.18 68.58)
 		)
 		(stroke
 			(width 0)
@@ -217,7 +217,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 123.19) (xy 130.81 123.19)
+			(xy 118.11 107.95) (xy 129.54 107.95)
 		)
 		(stroke
 			(width 0)
@@ -226,7 +226,7 @@
 		(uuid "f51f1124-47c0-4036-9420-3d770243b337")
 	)
 	(sheet
-		(at 180.34 109.22)
+		(at 179.07 93.98)
 		(size 30.48 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -242,7 +242,7 @@
 		)
 		(uuid "06d78271-6402-4c0d-bca0-d55cdd6835cb")
 		(property "Sheetname" "pwm-driver"
-			(at 180.34 108.5084 0)
+			(at 179.07 93.2684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -253,7 +253,7 @@
 			)
 		)
 		(property "Sheetfile" "pwm_driver.kicad_sch"
-			(at 180.34 128.8546 0)
+			(at 179.07 113.6146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -264,7 +264,7 @@
 			)
 		)
 		(pin "SCL" input
-			(at 180.34 111.76 180)
+			(at 179.07 96.52 180)
 			(uuid "33778ce7-3367-4513-a8a8-6b854ef167f9")
 			(effects
 				(font
@@ -274,7 +274,7 @@
 			)
 		)
 		(pin "SDA" bidirectional
-			(at 180.34 114.3 180)
+			(at 179.07 99.06 180)
 			(uuid "7b6c5d68-4a0e-4b5a-882f-f34e243bc919")
 			(effects
 				(font
@@ -292,7 +292,7 @@
 		)
 	)
 	(sheet
-		(at 130.81 97.79)
+		(at 129.54 82.55)
 		(size 30.48 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -308,7 +308,7 @@
 		)
 		(uuid "31dc4987-9523-4ae4-af06-c8582b12974d")
 		(property "Sheetname" "mcu"
-			(at 130.81 97.0784 0)
+			(at 129.54 81.8384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -319,7 +319,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 130.81 128.8546 0)
+			(at 129.54 113.6146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -330,7 +330,7 @@
 			)
 		)
 		(pin "USB_D+" bidirectional
-			(at 130.81 111.76 180)
+			(at 129.54 96.52 180)
 			(uuid "bd2487a1-daef-49b2-8c78-b25c1d70d8b6")
 			(effects
 				(font
@@ -340,7 +340,7 @@
 			)
 		)
 		(pin "USB_D-" bidirectional
-			(at 130.81 114.3 180)
+			(at 129.54 99.06 180)
 			(uuid "f19cb22b-a955-4794-893e-fba06608b4c2")
 			(effects
 				(font
@@ -350,7 +350,7 @@
 			)
 		)
 		(pin "I2C_SCL" output
-			(at 161.29 111.76 0)
+			(at 160.02 96.52 0)
 			(uuid "8216112b-7480-468a-af49-b79c7088ba5b")
 			(effects
 				(font
@@ -360,7 +360,7 @@
 			)
 		)
 		(pin "I2C_SDA" bidirectional
-			(at 161.29 114.3 0)
+			(at 160.02 99.06 0)
 			(uuid "1b24fe56-315e-44a4-9a2a-911880541472")
 			(effects
 				(font
@@ -370,7 +370,7 @@
 			)
 		)
 		(pin "UART1_RX" input
-			(at 130.81 100.33 180)
+			(at 129.54 85.09 180)
 			(uuid "b0d88d32-c77f-4222-acee-b65a65a8695b")
 			(effects
 				(font
@@ -380,7 +380,7 @@
 			)
 		)
 		(pin "UART1_TX" output
-			(at 130.81 102.87 180)
+			(at 129.54 87.63 180)
 			(uuid "6cd9e4f5-4776-42d1-b425-a06413626f69")
 			(effects
 				(font
@@ -390,7 +390,7 @@
 			)
 		)
 		(pin "UART2_RX" input
-			(at 130.81 123.19 180)
+			(at 129.54 107.95 180)
 			(uuid "7cdbd1c5-0cbe-4497-b3a5-47addb6dbce7")
 			(effects
 				(font
@@ -400,7 +400,7 @@
 			)
 		)
 		(pin "UART2_TX" output
-			(at 130.81 125.73 180)
+			(at 129.54 110.49 180)
 			(uuid "83fe4a46-2051-4853-89ad-1b88cfd27533")
 			(effects
 				(font
@@ -410,7 +410,7 @@
 			)
 		)
 		(pin "I2C2_SCL" output
-			(at 161.29 100.33 0)
+			(at 160.02 85.09 0)
 			(uuid "7a4966a6-7a1b-4c46-8c4a-c9cb3a066d1c")
 			(effects
 				(font
@@ -420,7 +420,7 @@
 			)
 		)
 		(pin "I2C2_SDA" bidirectional
-			(at 161.29 102.87 0)
+			(at 160.02 87.63 0)
 			(uuid "8827ee12-b0bc-4161-b619-ebe956916b40")
 			(effects
 				(font
@@ -438,7 +438,7 @@
 		)
 	)
 	(sheet
-		(at 180.34 81.28)
+		(at 179.07 66.04)
 		(size 30.48 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -454,7 +454,7 @@
 		)
 		(uuid "4d117854-2c92-458b-bce6-6385520cee86")
 		(property "Sheetname" "power"
-			(at 180.34 80.5684 0)
+			(at 179.07 65.3284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -465,7 +465,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 180.34 100.9146 0)
+			(at 179.07 85.6746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -476,7 +476,7 @@
 			)
 		)
 		(pin "INA226_SCL" input
-			(at 180.34 83.82 180)
+			(at 179.07 68.58 180)
 			(uuid "63c5c884-7979-40ca-90ce-a6383e3c6326")
 			(effects
 				(font
@@ -486,7 +486,7 @@
 			)
 		)
 		(pin "INA226_SDA" bidirectional
-			(at 180.34 86.36 180)
+			(at 179.07 71.12 180)
 			(uuid "a458c47f-b9be-4f45-9005-09046521d4c8")
 			(effects
 				(font
@@ -504,7 +504,7 @@
 		)
 	)
 	(sheet
-		(at 77.47 139.7)
+		(at 76.2 124.46)
 		(size 30.48 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -520,7 +520,7 @@
 		)
 		(uuid "4d2302dd-96c1-4081-a707-3c6abab7239a")
 		(property "Sheetname" "esp32-module-connector"
-			(at 77.47 138.9884 0)
+			(at 76.2 123.7484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -531,7 +531,7 @@
 			)
 		)
 		(property "Sheetfile" "esp32_module_connector.kicad_sch"
-			(at 77.47 159.3346 0)
+			(at 76.2 144.0946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -542,7 +542,7 @@
 			)
 		)
 		(pin "esp32_RX" input
-			(at 107.95 144.78 0)
+			(at 106.68 129.54 0)
 			(uuid "ec345119-80c3-49d9-b8e3-2b88ad0d6eb8")
 			(effects
 				(font
@@ -552,7 +552,7 @@
 			)
 		)
 		(pin "esp32_TX" output
-			(at 107.95 142.24 0)
+			(at 106.68 127 0)
 			(uuid "5c58cd7b-49b3-4815-aa40-c83db1364d90")
 			(effects
 				(font
@@ -570,7 +570,7 @@
 		)
 	)
 	(sheet
-		(at 77.47 81.28)
+		(at 76.2 66.04)
 		(size 30.48 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -586,7 +586,7 @@
 		)
 		(uuid "5eae9f20-c0db-468d-b61d-7762ef488b79")
 		(property "Sheetname" "usb-c"
-			(at 77.47 80.5684 0)
+			(at 76.2 65.3284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -597,7 +597,7 @@
 			)
 		)
 		(property "Sheetfile" "usb_c.kicad_sch"
-			(at 77.47 100.9146 0)
+			(at 76.2 85.6746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -608,7 +608,7 @@
 			)
 		)
 		(pin "CP2102_RX" input
-			(at 107.95 86.36 0)
+			(at 106.68 71.12 0)
 			(uuid "9f43ae08-e5fc-4bfc-be8f-a3c609bd5b5e")
 			(effects
 				(font
@@ -618,7 +618,7 @@
 			)
 		)
 		(pin "CP2102_TX" output
-			(at 107.95 83.82 0)
+			(at 106.68 68.58 0)
 			(uuid "0472d953-9791-45fe-932e-a9f14da9ed50")
 			(effects
 				(font
@@ -636,7 +636,7 @@
 		)
 	)
 	(sheet
-		(at 77.47 109.22)
+		(at 76.2 93.98)
 		(size 30.48 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -652,7 +652,7 @@
 		)
 		(uuid "cf797874-899b-4ea5-b16c-e496b3fcc26d")
 		(property "Sheetname" "usb-c-dfu"
-			(at 77.47 108.5084 0)
+			(at 76.2 93.2684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -663,7 +663,7 @@
 			)
 		)
 		(property "Sheetfile" "usb_c_dfu.kicad_sch"
-			(at 77.47 128.8546 0)
+			(at 76.2 113.6146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -674,7 +674,7 @@
 			)
 		)
 		(pin "USB_D+" bidirectional
-			(at 107.95 111.76 0)
+			(at 106.68 96.52 0)
 			(uuid "42bb42cd-f21e-408a-a9af-ceaea21a1cda")
 			(effects
 				(font
@@ -684,7 +684,7 @@
 			)
 		)
 		(pin "USB_D-" bidirectional
-			(at 107.95 114.3 0)
+			(at 106.68 99.06 0)
 			(uuid "2d6522f3-cda6-423e-ad70-75d36deb7b1c")
 			(effects
 				(font

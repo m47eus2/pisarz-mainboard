@@ -708,7 +708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d8af602-01d2-4d7d-be18-c82b04f75094")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR053"
 			(at 151.13 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -768,7 +768,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/4d2302dd-96c1-4081-a707-3c6abab7239a"
-					(reference "#PWR055")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -786,7 +786,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2f2d7a7-3a7e-4230-880a-888bdde29807")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR054"
 			(at 134.62 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -846,7 +846,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/4d2302dd-96c1-4081-a707-3c6abab7239a"
-					(reference "#PWR056")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)

@@ -1660,7 +1660,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V3"
+		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -1685,7 +1685,7 @@
 					)
 				)
 			)
-			(property "Value" "+3V3"
+			(property "Value" "+3.3V"
 				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1717,7 +1717,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1739,7 +1739,7 @@
 					)
 				)
 			)
-			(symbol "+3V3_0_1"
+			(symbol "+3.3V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1777,7 +1777,7 @@
 					)
 				)
 			)
-			(symbol "+3V3_1_1"
+			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -5620,7 +5620,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04bf6125-0a51-4708-9973-c9d1b589e6d9")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR039"
 			(at 30.48 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -5680,7 +5680,85 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/06d78271-6402-4c0d-bca0-d55cdd6835cb"
-					(reference "#PWR037")
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 63.5 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "062372db-964f-4e95-89fe-39a71296b905")
+		(property "Reference" "#PWR071"
+			(at 63.5 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 63.5 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 63.5 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e5e08539-4d43-486f-92fe-77711aa0d08a")
+		)
+		(instances
+			(project "pisarz-mainboard"
+				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/06d78271-6402-4c0d-bca0-d55cdd6835cb"
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -5698,7 +5776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0720194f-0f09-435a-97d4-789102100938")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR040"
 			(at 35.56 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -5758,7 +5836,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/06d78271-6402-4c0d-bca0-d55cdd6835cb"
-					(reference "#PWR036")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -5854,7 +5932,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14898dff-b0de-4f61-a7b7-2ddf0d856e13")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR037"
 			(at 210.82 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -5914,7 +5992,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/06d78271-6402-4c0d-bca0-d55cdd6835cb"
-					(reference "#PWR067")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -5932,7 +6010,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1ed1addf-db55-4bfc-929d-6cd07078dcf9")
-		(property "Reference" "J5"
+		(property "Reference" "J6"
 			(at 243.205 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6036,7 +6114,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/06d78271-6402-4c0d-bca0-d55cdd6835cb"
-					(reference "J5")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -6054,7 +6132,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27763669-54c1-4119-ab8f-1293f37dcd5e")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR044"
 			(at 210.82 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -6114,7 +6192,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/06d78271-6402-4c0d-bca0-d55cdd6835cb"
-					(reference "#PWR068")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -6132,7 +6210,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a271b07-0ac9-4cf7-9ee3-50e332e017f8")
-		(property "Reference" "C20"
+		(property "Reference" "C21"
 			(at 102.87 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6196,7 +6274,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/06d78271-6402-4c0d-bca0-d55cdd6835cb"
-					(reference "C20")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -6214,7 +6292,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e03ac47-44c6-4484-ac57-5a0e909b55d8")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR041"
 			(at 236.22 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -6274,7 +6352,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/06d78271-6402-4c0d-bca0-d55cdd6835cb"
-					(reference "#PWR046")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -6292,7 +6370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47f648ea-003e-4866-889c-35f2f05059a2")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR038"
 			(at 99.06 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -6352,85 +6430,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/06d78271-6402-4c0d-bca0-d55cdd6835cb"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 63.5 39.37 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "527473ca-f031-400d-b53f-08159ced4359")
-		(property "Reference" "#PWR032"
-			(at 63.5 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 63.5 34.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 63.5 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ee458cb9-31ab-4b8a-8f3a-6b52329da59a")
-		)
-		(instances
-			(project "pisarz-mainboard"
-				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/06d78271-6402-4c0d-bca0-d55cdd6835cb"
-					(reference "#PWR032")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -6448,7 +6448,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b90a840-9e39-482f-a6bd-d70f490c8d4d")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR043"
 			(at 63.5 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -6508,7 +6508,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/06d78271-6402-4c0d-bca0-d55cdd6835cb"
-					(reference "#PWR034")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -6687,7 +6687,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7453f2c3-4866-4dd9-93b6-3fd4cd658a3d")
-		(property "Reference" "R12"
+		(property "Reference" "R13"
 			(at 38.1 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6751,7 +6751,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/06d78271-6402-4c0d-bca0-d55cdd6835cb"
-					(reference "R12")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -6769,7 +6769,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "749f0bb2-5a9c-455e-abd3-5d9fdae2e217")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR047"
 			(at 30.48 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -6829,7 +6829,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/06d78271-6402-4c0d-bca0-d55cdd6835cb"
-					(reference "#PWR038")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -6847,7 +6847,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "76d9e5fa-0cbc-4fe0-9954-6b352d86ad81")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 220.345 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6951,7 +6951,85 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/06d78271-6402-4c0d-bca0-d55cdd6835cb"
-					(reference "J4")
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 43.18 158.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fa66f45-42d8-4e90-ba47-00e9a3f1c89e")
+		(property "Reference" "#PWR072"
+			(at 43.18 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 43.18 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 43.18 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c6c38131-43d4-4c3e-96b3-75dac7eacf63")
+		)
+		(instances
+			(project "pisarz-mainboard"
+				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/06d78271-6402-4c0d-bca0-d55cdd6835cb"
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -6969,7 +7047,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "98ba1575-fefa-440b-8541-da9c4bfc263c")
-		(property "Reference" "J7"
+		(property "Reference" "J8"
 			(at 220.345 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7073,7 +7151,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/06d78271-6402-4c0d-bca0-d55cdd6835cb"
-					(reference "J7")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -7091,7 +7169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b5a46fd-d325-462c-a746-901460d69bbf")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR051"
 			(at 43.18 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -7151,7 +7229,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/06d78271-6402-4c0d-bca0-d55cdd6835cb"
-					(reference "#PWR040")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -7169,7 +7247,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d10475a-362d-4dda-8ecd-8655532791d4")
-		(property "Reference" "C19"
+		(property "Reference" "C20"
 			(at 102.87 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7233,7 +7311,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/06d78271-6402-4c0d-bca0-d55cdd6835cb"
-					(reference "C19")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -7251,7 +7329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acc09cbd-131b-4712-a38d-3925fd8d7121")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR049"
 			(at 35.56 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -7311,85 +7389,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/06d78271-6402-4c0d-bca0-d55cdd6835cb"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 63.5 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf9fd0d9-ded7-42d9-9c7a-1fa5ed6d64e5")
-		(property "Reference" "#PWR041"
-			(at 63.5 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 63.5 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 63.5 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "86154fd1-642c-4375-9f98-cd0e0439b867")
-		)
-		(instances
-			(project "pisarz-mainboard"
-				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/06d78271-6402-4c0d-bca0-d55cdd6835cb"
-					(reference "#PWR041")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -7568,7 +7568,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cb5e95eb-54fd-44c6-aa16-257e0af9fdbc")
-		(property "Reference" "J8"
+		(property "Reference" "J9"
 			(at 243.205 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7672,7 +7672,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/06d78271-6402-4c0d-bca0-d55cdd6835cb"
-					(reference "J8")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -7690,7 +7690,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dbd27d98-e418-4535-9e89-c22529aaec2a")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 196.215 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7794,7 +7794,85 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/06d78271-6402-4c0d-bca0-d55cdd6835cb"
-					(reference "J3")
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 63.5 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e159f58b-6897-4a73-a5c5-0998b0588a33")
+		(property "Reference" "#PWR070"
+			(at 63.5 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 63.5 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 63.5 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7937101c-349c-488c-bfd5-639402b105ef")
+		)
+		(instances
+			(project "pisarz-mainboard"
+				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/06d78271-6402-4c0d-bca0-d55cdd6835cb"
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -7812,7 +7890,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e479e310-1d93-4b8c-8ac0-d52749ee8b6f")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR046"
 			(at 99.06 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -7872,7 +7950,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/06d78271-6402-4c0d-bca0-d55cdd6835cb"
-					(reference "#PWR043")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -7890,7 +7968,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eaffee59-5fe9-43ae-8d10-979c6a468633")
-		(property "Reference" "R13"
+		(property "Reference" "R14"
 			(at 38.1 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7954,85 +8032,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/06d78271-6402-4c0d-bca0-d55cdd6835cb"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 43.18 158.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eeecc37e-9cf5-47f5-872b-de50d73f1992")
-		(property "Reference" "#PWR044"
-			(at 43.18 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 43.18 153.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 43.18 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "524a28b3-92cd-4a9e-868a-76f03ae44e62")
-		)
-		(instances
-			(project "pisarz-mainboard"
-				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/06d78271-6402-4c0d-bca0-d55cdd6835cb"
-					(reference "#PWR044")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -8050,7 +8050,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eff72c1f-8f83-4c63-b574-b3ce1213be7f")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR052"
 			(at 63.5 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -8110,7 +8110,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/06d78271-6402-4c0d-bca0-d55cdd6835cb"
-					(reference "#PWR042")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -8128,7 +8128,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1d03e8f-2dc4-4425-b48e-d31c44e8e966")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR042"
 			(at 43.18 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -8188,7 +8188,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/06d78271-6402-4c0d-bca0-d55cdd6835cb"
-					(reference "#PWR035")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -8206,7 +8206,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f2647858-6637-481e-ac33-efadea4957f8")
-		(property "Reference" "J6"
+		(property "Reference" "J7"
 			(at 196.215 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8310,7 +8310,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/06d78271-6402-4c0d-bca0-d55cdd6835cb"
-					(reference "J6")
+					(reference "J7")
 					(unit 1)
 				)
 			)

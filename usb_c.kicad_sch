@@ -2252,7 +2252,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V3"
+		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -2277,7 +2277,7 @@
 					)
 				)
 			)
-			(property "Value" "+3V3"
+			(property "Value" "+3.3V"
 				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2309,7 +2309,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2331,7 +2331,7 @@
 					)
 				)
 			)
-			(symbol "+3V3_0_1"
+			(symbol "+3.3V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -2369,7 +2369,7 @@
 					)
 				)
 			)
-			(symbol "+3V3_1_1"
+			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2738,13 +2738,7 @@
 		(at 77.47 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9925d2ba-410e-4204-852d-e8a8588412e6")
-	)
-	(junction
-		(at 77.47 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a526f9aa-92ec-4c7f-9206-05d88f50ade4")
+		(uuid "a7f6a99f-9cf4-44e8-be61-8d12cba89b28")
 	)
 	(junction
 		(at 238.76 100.33)
@@ -2775,6 +2769,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e33a7dad-35ee-4b10-9fb9-6ba9338f8fda")
+	)
+	(junction
+		(at 77.47 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4f8767f-47d0-425a-a25e-f478859a5da9")
 	)
 	(no_connect
 		(at 92.71 128.27)
@@ -2924,16 +2924,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 50.8) (xy 77.47 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15b105ee-7851-44b3-b2ee-1463b3bf0f5e")
-	)
-	(wire
-		(pts
 			(xy 80.01 72.39) (xy 80.01 80.01)
 		)
 		(stroke
@@ -3061,6 +3051,16 @@
 			(type default)
 		)
 		(uuid "3624a7e9-5930-4cd9-be1d-e21207ed1761")
+	)
+	(wire
+		(pts
+			(xy 77.47 50.8) (xy 77.47 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dac7c4a-c06a-4081-8f15-c6704533f8b6")
 	)
 	(wire
 		(pts
@@ -3544,6 +3544,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 54.61) (xy 77.47 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d75157ac-fb76-4ed3-8201-376539dafb8c")
+	)
+	(wire
+		(pts
 			(xy 204.47 60.96) (xy 204.47 83.82)
 		)
 		(stroke
@@ -3736,7 +3746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06880138-c955-4329-98dc-1b43a97a17e1")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 82.1533 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3881,7 +3891,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/5eae9f20-c0db-468d-b61d-7762ef488b79"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -3899,7 +3909,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "096c9aad-8aee-4710-a5e6-43cd6099e723")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR021"
 			(at 177.8 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3959,7 +3969,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/5eae9f20-c0db-468d-b61d-7762ef488b79"
-					(reference "#PWR012")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -3976,7 +3986,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "172e1dcf-1e66-47d8-b7d6-629ccbf56ccd")
-		(property "Reference" "R5"
+		(property "Reference" "R10"
 			(at 228.6 134.366 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4038,7 +4048,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/5eae9f20-c0db-468d-b61d-7762ef488b79"
-					(reference "R5")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -4056,7 +4066,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18c4fccb-eada-4c40-b6f4-38e74755a991")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR024"
 			(at 45.72 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -4116,7 +4126,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/5eae9f20-c0db-468d-b61d-7762ef488b79"
-					(reference "#PWR071")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -4134,7 +4144,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2468758b-1028-414f-9725-e1622a1a40e6")
-		(property "Reference" "C23"
+		(property "Reference" "C17"
 			(at 111.76 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4198,7 +4208,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/5eae9f20-c0db-468d-b61d-7762ef488b79"
-					(reference "C23")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -4216,7 +4226,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "258af0c4-c875-4639-8367-72672c4c5cfc")
-		(property "Reference" "C11"
+		(property "Reference" "C16"
 			(at 196.85 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4280,7 +4290,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/5eae9f20-c0db-468d-b61d-7762ef488b79"
-					(reference "C11")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -4298,7 +4308,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "262cfd30-daca-4bdf-b45e-f3b7a0f5f512")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR030"
 			(at 80.01 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -4358,7 +4368,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/5eae9f20-c0db-468d-b61d-7762ef488b79"
-					(reference "#PWR070")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -4376,7 +4386,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2839e0fe-6fc3-4327-a24b-9ffb25039334")
-		(property "Reference" "C27"
+		(property "Reference" "C14"
 			(at 111.76 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4440,7 +4450,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/5eae9f20-c0db-468d-b61d-7762ef488b79"
-					(reference "C27")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -4458,7 +4468,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ae57228-95d9-409d-832b-ab76d7e4ff54")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR020"
 			(at 119.38 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -4518,7 +4528,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/5eae9f20-c0db-468d-b61d-7762ef488b79"
-					(reference "#PWR049")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -4536,7 +4546,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41b637fb-58b6-4cb4-8146-81e4eed6433c")
-		(property "Reference" "R23"
+		(property "Reference" "R5"
 			(at 66.04 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4600,7 +4610,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/5eae9f20-c0db-468d-b61d-7762ef488b79"
-					(reference "R23")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -4618,7 +4628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78b31fc8-8e9a-4310-950f-13f38fa0070e")
-		(property "Reference" "R24"
+		(property "Reference" "R8"
 			(at 105.41 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4682,7 +4692,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/5eae9f20-c0db-468d-b61d-7762ef488b79"
-					(reference "R24")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -4700,7 +4710,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8553c5a2-144b-4610-b950-520249811e90")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 238.76 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4807,7 +4817,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/5eae9f20-c0db-468d-b61d-7762ef488b79"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -4824,7 +4834,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8835f899-5d6a-41b0-9ecc-1abacebebf31")
-		(property "Reference" "R4"
+		(property "Reference" "R9"
 			(at 228.6 127.508 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4886,7 +4896,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/5eae9f20-c0db-468d-b61d-7762ef488b79"
-					(reference "R4")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -4904,7 +4914,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f81cfce-c36d-4725-887f-392c928f9578")
-		(property "Reference" "C28"
+		(property "Reference" "C15"
 			(at 124.46 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4968,7 +4978,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/5eae9f20-c0db-468d-b61d-7762ef488b79"
-					(reference "C28")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -4985,7 +4995,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "922baf8f-08f3-4288-a448-38bedf1606d1")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 206.1211 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5064,7 +5074,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/5eae9f20-c0db-468d-b61d-7762ef488b79"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -5083,7 +5093,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "936e580a-bddb-44b6-8bd9-bf08a045eaee")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR025"
 			(at 204.47 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -5143,7 +5153,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/5eae9f20-c0db-468d-b61d-7762ef488b79"
-					(reference "#PWR014")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -5161,7 +5171,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2ceb78b-0f8f-4783-8579-1a73e2e5014e")
-		(property "Reference" "C24"
+		(property "Reference" "C18"
 			(at 124.46 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5225,14 +5235,14 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/5eae9f20-c0db-468d-b61d-7762ef488b79"
-					(reference "C24")
+					(reference "C18")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "power:+3.3V")
 		(at 77.47 50.8 0)
 		(unit 1)
 		(body_style 1)
@@ -5242,8 +5252,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a52ede74-b0fd-47e8-971b-e95bdb682b12")
-		(property "Reference" "#PWR069"
+		(uuid "a55a187e-b7b6-4369-b434-7383ecd8160d")
+		(property "Reference" "#PWR068"
 			(at 77.47 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -5254,7 +5264,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+3.3V"
 			(at 77.47 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5286,7 +5296,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 			(at 77.47 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5298,12 +5308,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d4a97409-ef94-4031-9ba5-23b00b1fcf1a")
+			(uuid "d03444e7-f6fc-4feb-9a53-c50d2989166d")
 		)
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/5eae9f20-c0db-468d-b61d-7762ef488b79"
-					(reference "#PWR069")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -5321,7 +5331,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6c0786a-1949-45e9-9e80-b5b99d2ad8e4")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR023"
 			(at 119.38 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5381,7 +5391,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/5eae9f20-c0db-468d-b61d-7762ef488b79"
-					(reference "#PWR045")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -5399,7 +5409,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa0b0a6a-2bbd-46b7-be25-fdae7c599b1a")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR027"
 			(at 45.72 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -5459,7 +5469,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/5eae9f20-c0db-468d-b61d-7762ef488b79"
-					(reference "#PWR072")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -5477,7 +5487,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab6fd633-c6e4-44f8-acbf-e8e3b2b0efc9")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR028"
 			(at 101.6 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -5537,7 +5547,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/5eae9f20-c0db-468d-b61d-7762ef488b79"
-					(reference "#PWR074")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -5637,7 +5647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3f409ac-4c56-4332-95d6-16b89d6b1868")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR019"
 			(at 217.17 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -5697,7 +5707,85 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/5eae9f20-c0db-468d-b61d-7762ef488b79"
-					(reference "#PWR09")
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 62.23 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbf15956-23e8-4282-936c-7c535e5caf3c")
+		(property "Reference" "#PWR069"
+			(at 62.23 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 62.23 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 62.23 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "deab27cc-0959-4581-b6ae-057b08508304")
+		)
+		(instances
+			(project "pisarz-mainboard"
+				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/5eae9f20-c0db-468d-b61d-7762ef488b79"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -5715,7 +5803,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c82925f4-679b-4ef0-9159-f81526b9f157")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR029"
 			(at 234.95 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -5775,7 +5863,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/5eae9f20-c0db-468d-b61d-7762ef488b79"
-					(reference "#PWR016")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -5793,7 +5881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0034352-d8b6-4b8b-91fa-de949bbd1237")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR026"
 			(at 238.76 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -5853,7 +5941,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/5eae9f20-c0db-468d-b61d-7762ef488b79"
-					(reference "#PWR015")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -5871,7 +5959,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f89017e9-e9d6-4383-8ed7-96a08034e8c6")
-		(property "Reference" "R21"
+		(property "Reference" "R6"
 			(at 49.53 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5935,85 +6023,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/5eae9f20-c0db-468d-b61d-7762ef488b79"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 62.23 77.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f92d31a2-a459-4d96-bfd6-3b89ea9292e9")
-		(property "Reference" "#PWR073"
-			(at 62.23 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 62.23 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 62.23 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c8a76a1f-9bda-4519-ab20-a532955481be")
-		)
-		(instances
-			(project "pisarz-mainboard"
-				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/5eae9f20-c0db-468d-b61d-7762ef488b79"
-					(reference "#PWR073")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -6031,7 +6041,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f933d65d-abae-4bcd-8cae-59e296e2a931")
-		(property "Reference" "R22"
+		(property "Reference" "R7"
 			(at 49.53 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6095,7 +6105,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/5eae9f20-c0db-468d-b61d-7762ef488b79"
-					(reference "R22")
+					(reference "R7")
 					(unit 1)
 				)
 			)

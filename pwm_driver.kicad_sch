@@ -8408,7 +8408,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm"
+		(property "Footprint" "Package_SO:SSOP-20_4.4x6.5mm_P0.65mm"
 			(at 252.73 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -9064,7 +9064,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm"
+		(property "Footprint" "Package_SO:SSOP-20_4.4x6.5mm_P0.65mm"
 			(at 181.61 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -11099,7 +11099,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm"
+		(property "Footprint" "Package_SO:SSOP-20_4.4x6.5mm_P0.65mm"
 			(at 252.73 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -11708,7 +11708,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm"
+		(property "Footprint" "Package_SO:SSOP-20_4.4x6.5mm_P0.65mm"
 			(at 181.61 102.87 0)
 			(hide yes)
 			(show_name no)

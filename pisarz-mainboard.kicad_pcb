@@ -129,16 +129,16 @@
 	(footprint "Package_SO:SSOP-20_4.4x6.5mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "0325e0ec-3c3e-48f6-86e4-a5c5e09ddc22")
-		(at 115.4 66.4 180)
+		(at 114.4 66.4 180)
 		(descr "SSOP, 20 Pin (https://www.jedec.org/system/files/docs/Mo-152c.pdf)")
 		(tags "SSOP SO JEDEC-MO-152-AC SOT266-1 Nisshinbo-PI-SSOP20-E-A Rohm-SSOP-B20")
 		(property "Reference" "U9"
 			(at 0 -4.2 0)
 			(layer "F.SilkS")
-			(uuid "e6a62d9f-b58c-4c03-9f15-2747a2e915f8")
+			(uuid "bd091dfc-e008-43a7-9afe-f80493e132f7")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -146,7 +146,7 @@
 		(property "Value" "74AHCT541"
 			(at 0 4.2 0)
 			(layer "F.Fab")
-			(uuid "c10672c7-3a2a-4369-8a15-531fa69d17ab")
+			(uuid "877af86b-998a-4b9e-96a8-9de41662c2fd")
 			(effects
 				(font
 					(size 1 1)
@@ -158,7 +158,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8b01e192-d607-4284-b9a9-a1316782355a")
+			(uuid "ac20ee7d-4e7d-4dba-bd73-17fbf07d6f84")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -169,7 +169,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "257115e0-8b17-4de2-af90-0be86be06c9d")
+			(uuid "0b1ff976-b388-4d7f-8fbf-18567fd7b6ed")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -602,7 +602,7 @@
 			(uuid "1bd81c5f-d722-48be-a68e-63abb9f291c3")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -1004,7 +1004,7 @@
 			(uuid "8d5e9605-5617-42e4-92d2-b938ef815b0f")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -1392,7 +1392,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "055dfa9d-ee44-452f-869f-993a11c1d4de")
-		(at 126.3875 98.79 -90)
+		(at 128.4 99.1 -90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C9"
@@ -1401,7 +1401,7 @@
 			(uuid "20080fa7-93b8-4a09-8d15-e5fe5379030c")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -1550,7 +1550,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "0a892340-3610-443a-a36e-3e27149178de")
-		(at 137.3875 103.09 180)
+		(at 139.6 103.09 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C3"
@@ -1559,7 +1559,7 @@
 			(uuid "cce002b3-fdd9-4d6d-b44e-b59942df09af")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -1717,7 +1717,7 @@
 			(uuid "8bde1e5d-f225-4552-91fc-73786b08ad2c")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -2105,7 +2105,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "1a6f7d2d-ae9a-4917-837d-678c6cb70c6f")
-		(at 143.025 114.55)
+		(at 144.2 112.8)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R5"
@@ -2114,7 +2114,7 @@
 			(uuid "cb9faa85-7ed0-4221-b7df-83ae9f849098")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -2263,7 +2263,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "1d02babc-eba8-4835-8d63-12aedaf90cdb")
-		(at 148.225 116.65 90)
+		(at 149.4 115.8 90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C15"
@@ -2272,7 +2272,7 @@
 			(uuid "40fc14f9-d52c-4342-b9b1-3111c9ac5cca")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -2421,7 +2421,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "29cd57b8-3dcd-41a7-b758-0c840656879f")
-		(at 129.5875 99.19 90)
+		(at 131.9 99.19 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C6"
@@ -2430,7 +2430,7 @@
 			(uuid "b926ea42-4ae5-4993-9c60-6f67ab0b40cc")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -2579,7 +2579,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23-6"
 		(layer "F.Cu")
 		(uuid "29fa8482-9f21-4006-8eb1-457f3744e26e")
-		(at 153.7 118.12)
+		(at 153.7 118.2)
 		(descr "SOT, 6 Pin (JEDEC MO-178 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-178)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U2"
@@ -2588,7 +2588,7 @@
 			(uuid "4049261e-fdf0-414d-aadd-3b9580b61821")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -2870,7 +2870,7 @@
 			(size 1.325 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/usb-c/USB_D+")
+			(net "/usb-c/USB_D-")
 			(pinfunction "I/O1_1")
 			(pintype "passive")
 			(uuid "e81ca856-4ecd-4e85-99e8-15f23aef39df")
@@ -2890,7 +2890,7 @@
 			(size 1.325 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/usb-c/USB_D-")
+			(net "/usb-c/USB_D+")
 			(pinfunction "I/O2_3")
 			(pintype "passive")
 			(uuid "1909acfd-324e-427f-98ee-06f067297c18")
@@ -2900,7 +2900,7 @@
 			(size 1.325 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(J2-D--PadA7)")
+			(net "Net-(J2-D+-PadA6)")
 			(pinfunction "I/O2_4")
 			(pintype "passive")
 			(uuid "9abb1668-235b-4088-a189-c6854ec54ed2")
@@ -2920,7 +2920,7 @@
 			(size 1.325 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(J2-D+-PadA6)")
+			(net "Net-(J2-D--PadA7)")
 			(pinfunction "I/O1_6")
 			(pintype "passive")
 			(uuid "e5cb42ba-ae12-4d5c-8dc4-3e4f78aec806")
@@ -2941,7 +2941,7 @@
 	(footprint "Diode_SMD:D_SMA"
 		(layer "F.Cu")
 		(uuid "2af6bd0c-21d7-407a-8e17-08376cb10928")
-		(at 160 110.6)
+		(at 160.1 110.5)
 		(descr "Diode SMA (DO-214AC)")
 		(tags "Diode SMA (DO-214AC)")
 		(property "Reference" "D2"
@@ -2950,7 +2950,7 @@
 			(uuid "2c03edfa-2073-45c1-b614-e4340815f9b7")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -3230,7 +3230,7 @@
 			(uuid "86578bda-6cd7-46f7-bdee-3599164460fd")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -3388,7 +3388,7 @@
 			(uuid "985886b1-297f-4e82-9c9f-66824dfc8c01")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -3546,7 +3546,7 @@
 			(uuid "9fb18283-5896-430b-b629-9c50622636d1")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -3777,7 +3777,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "3b06ed5d-45bd-42f5-8450-0a915d9946f1")
-		(at 126.3875 96.09 90)
+		(at 128.4 96.6 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C8"
@@ -3786,7 +3786,7 @@
 			(uuid "e370bd2a-d794-4268-86ee-642bb6cb394d")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -3944,7 +3944,7 @@
 			(uuid "f35d4d24-1807-4da8-908e-6c09886bd28b")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -4102,7 +4102,7 @@
 			(uuid "a49f5aa5-1a86-4fd7-9ca7-8046995f29f0")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -4490,16 +4490,16 @@
 	(footprint "Package_SO:SSOP-20_4.4x6.5mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "4133da39-2997-4e55-a2af-dc09ae425068")
-		(at 114.8 130 180)
+		(at 114.2125 130.0125 180)
 		(descr "SSOP, 20 Pin (https://www.jedec.org/system/files/docs/Mo-152c.pdf)")
 		(tags "SSOP SO JEDEC-MO-152-AC SOT266-1 Nisshinbo-PI-SSOP20-E-A Rohm-SSOP-B20")
 		(property "Reference" "U12"
 			(at 0 -4.2 0)
 			(layer "F.SilkS")
-			(uuid "2caece9e-05fb-4946-b9ee-a9eff327e338")
+			(uuid "560ebe7b-bbfa-4f7e-a989-18fa0344eac8")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -4507,7 +4507,7 @@
 		(property "Value" "74AHCT541"
 			(at 0 4.2 0)
 			(layer "F.Fab")
-			(uuid "c401c08f-9664-4327-83c4-4dd3e3aca1de")
+			(uuid "5d4e08bb-19bd-4e13-a629-b1c4f9a1c9a8")
 			(effects
 				(font
 					(size 1 1)
@@ -4519,7 +4519,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "efbab9b6-1b7a-408c-9407-ae836520ed4f")
+			(uuid "97154983-ae95-4ed5-9bbe-db1f13463c0d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4530,7 +4530,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "873b94e1-449f-451e-94f9-d032beb540c1")
+			(uuid "a25d24f0-0843-4de9-bbec-2a52318a3f84")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4963,7 +4963,7 @@
 			(uuid "5c6e11b5-b6f8-400c-a84c-1b069b4d9a61")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -5112,16 +5112,16 @@
 	(footprint "Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "4398b22b-a4c3-4d84-978e-49aa77fc955b")
-		(at 116.6 77.4 -90)
+		(at 116.625 76.8 -90)
 		(descr "TSSOP, 28 Pin (JEDEC MO-153 Var AE https://www.jedec.org/document_search?search_api_views_fulltext=MO-153)")
 		(tags "TSSOP SO")
 		(property "Reference" "U5"
 			(at 0 -5.8 90)
 			(layer "F.SilkS")
-			(uuid "10db238f-d16f-41f6-b12f-ad32e3053cd4")
+			(uuid "de004ca3-e1da-426f-9e7c-a78695c830d4")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -5129,7 +5129,7 @@
 		(property "Value" "PCA9685PW"
 			(at 0 5.8 90)
 			(layer "F.Fab")
-			(uuid "c02b2e79-4746-4c74-ba02-d1e491976ee3")
+			(uuid "6b199c65-b383-452b-a8cd-d9ca023e2d9e")
 			(effects
 				(font
 					(size 1 1)
@@ -5141,7 +5141,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "91e849f0-be62-4858-b2e3-3a72ad4abdbf")
+			(uuid "72762048-a4f6-422e-bc0b-54ba32c3076e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5152,7 +5152,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e5f1a5ac-4602-4152-a500-5be7fbe4ac19")
+			(uuid "9ce02429-1867-41a7-8fd6-76dd3b47135c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5696,7 +5696,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "43b2c454-2782-4af8-b531-fd8156f7e9ce")
-		(at 146.1025 114.63)
+		(at 146.9175 112.8)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R7"
@@ -5705,7 +5705,7 @@
 			(uuid "8ac90103-4cc6-4375-b178-b2a6e23b18b7")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -5854,16 +5854,16 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "48834ea0-b710-4404-ad14-b1a8d08790df")
-		(at 112 71.2 180)
+		(at 110.9 70.7 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C25"
 			(at 0 -1.16 0)
 			(layer "F.SilkS")
-			(uuid "c96459e2-b5ad-4410-bff9-9ea03d3958c0")
+			(uuid "d1806d20-cf6b-4d47-a1c7-296451002321")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -5871,7 +5871,7 @@
 		(property "Value" "100n"
 			(at 0 1.16 0)
 			(layer "F.Fab")
-			(uuid "d55a67ed-dd4c-461d-979b-708919bbb74d")
+			(uuid "9b8e9a41-b49a-4745-a617-e5aceb87699f")
 			(effects
 				(font
 					(size 1 1)
@@ -5883,7 +5883,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ebe15ac5-19e8-4306-9d74-a22449f0b7e4")
+			(uuid "edb9e2a2-464d-44fd-97af-8814afa1e069")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5894,7 +5894,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c1498f78-0926-4a7d-b5de-6affb3b07ced")
+			(uuid "8e505126-997c-4bae-83e4-492beb7a963d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6012,16 +6012,16 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "48e89462-8a3b-4728-a85f-b0e9c235ded7")
-		(at 152.8 137 90)
+		(at 152.6 137 90)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C23"
-			(at 0 -1.68 90)
+			(at -0.9 1.5 90)
 			(layer "F.SilkS")
 			(uuid "37fc8cbf-c2b7-47f0-ba3d-e312fd136f44")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -6179,7 +6179,7 @@
 			(uuid "99c659d5-d987-44ab-a5bf-d783c46f62aa")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -6453,7 +6453,7 @@
 			(uuid "bc1b7ac0-6b23-4a9c-be19-9d3a318c7714")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -6602,16 +6602,16 @@
 	(footprint "Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "5738c1b2-7082-4114-85a5-0881aad608c1")
-		(at 116.6 120.2 -90)
+		(at 116.6375 119.99 -90)
 		(descr "TSSOP, 28 Pin (JEDEC MO-153 Var AE https://www.jedec.org/document_search?search_api_views_fulltext=MO-153)")
 		(tags "TSSOP SO")
 		(property "Reference" "U6"
 			(at 0 -5.8 90)
 			(layer "F.SilkS")
-			(uuid "4b7c7bd1-ec9d-45c5-a029-a7f165a53914")
+			(uuid "e849411a-16ba-4017-aaaf-b9224d784ecf")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -6619,7 +6619,7 @@
 		(property "Value" "PCA9685PW"
 			(at 0 5.8 90)
 			(layer "F.Fab")
-			(uuid "1ccb9da6-eb4e-4c04-899f-eff05e68b5fc")
+			(uuid "50e46d5c-726b-4d5e-8531-392fd9c78219")
 			(effects
 				(font
 					(size 1 1)
@@ -6631,7 +6631,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e9eb0702-0187-4973-bad4-aa79321ff6c0")
+			(uuid "fdf12b55-7481-43f5-8e35-3554d21dc87b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6642,7 +6642,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "116d6c3f-d83b-4445-a250-c0e1cb0ec378")
+			(uuid "1e1436ab-5021-4436-b1af-02b0f2a000c9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7196,7 +7196,7 @@
 			(uuid "7726f391-0960-4fbc-889e-57a96f901d1f")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -7312,8 +7312,8 @@
 			(uuid "18ed6953-9ee5-4177-a6e7-491051b49afc")
 			(effects
 				(font
-					(size 0.5 0.5)
-					(thickness 0.1)
+					(size 0.7 0.7)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7576,7 +7576,7 @@
 			(uuid "68f5e8db-bd82-4efd-9d5b-649a42a4eb59")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -7729,12 +7729,12 @@
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "LED handsolder")
 		(property "Reference" "D4"
-			(at 0 -1.65 0)
+			(at 2.725 0 0)
 			(layer "F.SilkS")
 			(uuid "db0a43e9-e4cf-4135-bf97-bc9eaf89d1d9")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -7947,7 +7947,7 @@
 	(footprint "Diode_SMD:D_SMA"
 		(layer "F.Cu")
 		(uuid "5d3b9bb1-3e0d-4949-ae5b-ad4feb9f3457")
-		(at 160 104.4)
+		(at 160.11 104.5)
 		(descr "Diode SMA (DO-214AC)")
 		(tags "Diode SMA (DO-214AC)")
 		(property "Reference" "D3"
@@ -7956,7 +7956,7 @@
 			(uuid "c8f40dfb-71b3-4cc4-abb6-5f8f1e9610d6")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -8231,12 +8231,12 @@
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "LED handsolder")
 		(property "Reference" "D5"
-			(at 0 -1.65 0)
+			(at 2.725 0 0)
 			(layer "F.SilkS")
 			(uuid "ba8116b1-1870-4623-9cf5-809a83fccf49")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -8449,16 +8449,16 @@
 	(footprint "Package_SO:SSOP-20_4.4x6.5mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "6539b0f8-dd04-4443-8dbd-af29c95898f7")
-		(at 115.2 109.6 180)
+		(at 114.4125 109.5875 180)
 		(descr "SSOP, 20 Pin (https://www.jedec.org/system/files/docs/Mo-152c.pdf)")
 		(tags "SSOP SO JEDEC-MO-152-AC SOT266-1 Nisshinbo-PI-SSOP20-E-A Rohm-SSOP-B20")
 		(property "Reference" "U11"
 			(at 0 -4.2 0)
 			(layer "F.SilkS")
-			(uuid "477fcc09-364b-462c-a591-9b497e629a65")
+			(uuid "93de7a92-10d5-4e33-a52c-9a2b6f02b9b2")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -8466,7 +8466,7 @@
 		(property "Value" "74AHCT541"
 			(at 0 4.2 0)
 			(layer "F.Fab")
-			(uuid "8b5c2e4f-2d3f-483a-9348-aacd6b6af5d1")
+			(uuid "39de72ac-c3c9-477f-8991-9b4d4c5578e6")
 			(effects
 				(font
 					(size 1 1)
@@ -8478,7 +8478,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1155b3c0-7cb6-4cc6-a749-98843ea265e2")
+			(uuid "fa1b633f-1b87-4ce4-befa-65ae87e81b4b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8489,7 +8489,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a980ace0-7953-441f-8166-283c0ace18d7")
+			(uuid "57ede5c5-8432-4660-94c8-bb75a05f12a9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8913,7 +8913,7 @@
 	(footprint "Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm"
 		(layer "F.Cu")
 		(uuid "67aa07a5-63ab-4453-8f75-761fa2a8062c")
-		(at 143.105 120.4 180)
+		(at 143.92 118.48 180)
 		(descr "QFN, 28 Pin (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf#page=283)")
 		(tags "QFN NoLead")
 		(property "Reference" "U3"
@@ -8922,7 +8922,7 @@
 			(uuid "e4107ba8-c06b-4408-9f0d-1573c2beecd0")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -9672,7 +9672,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "69568d7a-4f5c-4e65-a165-8da718715e30")
-		(at 132.3875 92.49)
+		(at 134.5875 92.6)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C5"
@@ -9681,7 +9681,7 @@
 			(uuid "9984b26b-81a8-48ca-aae2-0c7e9d6a6dba")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -9830,7 +9830,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "6e4ed413-96f6-4a78-bcb9-477e3054db49")
-		(at 146.725 117.15 90)
+		(at 147.8 116.4 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C14"
@@ -9839,7 +9839,7 @@
 			(uuid "06739bf4-93e1-4794-8156-cb3fdb75f681")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -9988,7 +9988,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "6faf7c39-ad5e-4cd2-ac7f-6194e78adaac")
-		(at 140.2875 94.39 90)
+		(at 142.4875 94.39 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C4"
@@ -9997,7 +9997,7 @@
 			(uuid "00984b72-4db4-4307-961f-b1c37e4f0e55")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -10155,7 +10155,7 @@
 			(uuid "30641bd7-ae31-4904-929b-278f749e04f5")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -10543,16 +10543,16 @@
 	(footprint "Package_SO:SSOP-20_4.4x6.5mm_P0.65mm"
 		(layer "F.Cu")
 		(uuid "77c9b852-c6bf-4009-9b6f-8d231cec6940")
-		(at 115.2 86.6 180)
+		(at 114.2 86.6 180)
 		(descr "SSOP, 20 Pin (https://www.jedec.org/system/files/docs/Mo-152c.pdf)")
 		(tags "SSOP SO JEDEC-MO-152-AC SOT266-1 Nisshinbo-PI-SSOP20-E-A Rohm-SSOP-B20")
 		(property "Reference" "U10"
 			(at 0 -4.2 0)
 			(layer "F.SilkS")
-			(uuid "45cddf2f-e3ce-47bf-b459-6f4265a9bef7")
+			(uuid "87db11b8-9123-4e16-8611-b7c5a82b95e8")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -10560,7 +10560,7 @@
 		(property "Value" "74AHCT541"
 			(at 0 4.2 0)
 			(layer "F.Fab")
-			(uuid "b3c72dac-309d-4ab6-b39c-1433196179e9")
+			(uuid "ddcdb3ce-3e66-4275-ad4f-c63729397967")
 			(effects
 				(font
 					(size 1 1)
@@ -10572,7 +10572,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8047813c-4994-4133-b629-bc89032557ac")
+			(uuid "c0bd0748-bb61-4a20-a26e-033829a29dba")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10583,7 +10583,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b04f5c54-b039-41fd-aa8c-ae18afd80bc4")
+			(uuid "10eafa77-2f13-47cf-b38f-b6c869d87ad2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11017,7 +11017,7 @@
 			(uuid "33fdc25f-34df-4624-93f8-32889c50aa5a")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -11133,8 +11133,8 @@
 			(uuid "758c6f0e-d913-4aa4-b236-8bb884c58952")
 			(effects
 				(font
-					(size 0.5 0.5)
-					(thickness 0.1)
+					(size 0.7 0.7)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11397,7 +11397,7 @@
 			(uuid "a5d3d6f4-0e22-4f2a-b924-54cbc6427dc9")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -11550,12 +11550,12 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R15"
-			(at 0 -1.17 90)
+			(at 0 1.075 90)
 			(layer "F.SilkS")
 			(uuid "10ed4f26-2dde-40b2-beb4-abb471879818")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -11713,7 +11713,7 @@
 			(uuid "203cad6b-8026-45d8-931a-3320d6ebeecb")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -11871,7 +11871,7 @@
 			(uuid "1cfea28b-eb00-4b00-82e7-af023a5b66f4")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -12029,7 +12029,7 @@
 			(uuid "2c1e5e48-9475-4dec-8e29-d813059ec607")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -12178,16 +12178,16 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "981377e1-26cd-4de5-aa0b-b0c4d22e187f")
-		(at 111.8 114.4 180)
+		(at 111 113.9875 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C28"
 			(at 0 -1.16 0)
 			(layer "F.SilkS")
-			(uuid "7a61d016-4acc-49b5-ac7e-39b855cf7f32")
+			(uuid "20c4d4ec-406e-4783-adad-250d8ad4d928")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -12195,7 +12195,7 @@
 		(property "Value" "100n"
 			(at 0 1.16 0)
 			(layer "F.Fab")
-			(uuid "ca144f89-3133-498e-9474-9182a2c56459")
+			(uuid "fbbccc3a-c41f-4fc1-b9e8-2acecdb2efa8")
 			(effects
 				(font
 					(size 1 1)
@@ -12207,7 +12207,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f9ff9f5b-26e9-4f14-b1a7-e1a929caeaa8")
+			(uuid "effd7bbb-8a24-4a48-bac2-99baee0b7ab2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12218,7 +12218,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1039e575-5a4e-4c95-9468-3cb5ba332bf5")
+			(uuid "9df71742-bd6b-4914-bb85-959ea27465f1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12336,7 +12336,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23-6"
 		(layer "F.Cu")
 		(uuid "9a155b0c-02e5-49af-acec-a532fb0173b0")
-		(at 152.325 96.97)
+		(at 152.325 96.8375)
 		(descr "SOT, 6 Pin (JEDEC MO-178 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-178)")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U4"
@@ -12345,7 +12345,7 @@
 			(uuid "157a36b1-05d8-4355-834a-825c4e8cd15f")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -12707,7 +12707,7 @@
 			(uuid "b6b946dc-f346-40d2-9682-06deb272ed79")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -12924,12 +12924,12 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R16"
-			(at 0 -1.17 90)
+			(at -0.1 1.075 90)
 			(layer "F.SilkS")
 			(uuid "e1512c32-5970-4953-b681-2841e16d4c0d")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -13078,7 +13078,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "b163b327-0520-4361-be8f-f928bfa29a19")
-		(at 129.5875 95.69 -90)
+		(at 131.9 94.3 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C2"
@@ -13087,7 +13087,7 @@
 			(uuid "c58d83cd-b26a-4de7-b2ff-34c777d73230")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -13150,16 +13150,6 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -0.115835 0.36)
-			(end 0.115835 0.36)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "0e9dde7b-eba5-4f8e-a593-04cf230fdd61")
-		)
-		(fp_line
 			(start -0.115835 -0.36)
 			(end 0.115835 -0.36)
 			(stroke
@@ -13168,6 +13158,16 @@
 			)
 			(layer "F.SilkS")
 			(uuid "97891a5f-acc7-4672-a559-1788be91706b")
+		)
+		(fp_line
+			(start -0.115835 0.36)
+			(end 0.115835 0.36)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0e9dde7b-eba5-4f8e-a593-04cf230fdd61")
 		)
 		(fp_rect
 			(start -1.09 -0.46)
@@ -13203,7 +13203,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.5675 0 270)
+			(at -0.5675 0 90)
 			(size 0.735 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -13212,7 +13212,7 @@
 			(uuid "4f2f3236-9d5e-430c-a028-bc3a121e8352")
 		)
 		(pad "2" smd roundrect
-			(at 0.5675 0 270)
+			(at 0.5675 0 90)
 			(size 0.735 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -13245,7 +13245,7 @@
 			(uuid "aed94fd7-908f-4fe6-a08e-636afa5b0e3b")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -13403,7 +13403,7 @@
 			(uuid "1be6b3cb-97f6-407d-b489-25a80bef2fc4")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -13675,7 +13675,7 @@
 			(uuid "2dd4ec50-ce30-46d6-b1df-088109c4778c")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -13824,7 +13824,7 @@
 	(footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 		(layer "F.Cu")
 		(uuid "bbe68c41-7ae3-4e53-bc59-f369e9f12dd9")
-		(at 123.3875 97.39 -90)
+		(at 125.5875 97.39 -90)
 		(descr "SMD3225/4, Crystal, 3.2x2.5mm package, SMD, http://www.txccrystal.com/images/pdf/7m-accuracy.pdf")
 		(property "Reference" "Y1"
 			(at 0 -2.45 90)
@@ -13832,7 +13832,7 @@
 			(uuid "480ec36a-b6d7-48b7-8dde-8c090953bb64")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -14013,7 +14013,7 @@
 			(uuid "59c5621c-a202-424b-8083-35c979718749")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -14171,7 +14171,7 @@
 			(uuid "47ee4e38-b8e0-4809-808f-87b565b5889e")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -14559,7 +14559,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "c071a028-35df-4e30-bfd9-269202f6f360")
-		(at 153.2675 115.52 180)
+		(at 153.2675 115.6 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C16"
@@ -14568,7 +14568,7 @@
 			(uuid "20aa363e-4126-4e30-af6b-0a2da2e23ad2")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -14726,7 +14726,7 @@
 			(uuid "d0df44db-7998-48b7-adfa-beebf83c7b86")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -14875,7 +14875,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "c1689336-341e-4217-9d6b-0fc9303cf68f")
-		(at 146.1025 113.33 180)
+		(at 146.9175 111.4 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R6"
@@ -14884,7 +14884,7 @@
 			(uuid "61f7530e-5a41-4bca-b86a-617ec7a84e40")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -15042,7 +15042,7 @@
 			(uuid "23f3a797-3745-4185-bcac-cdbc8de13f01")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -15439,7 +15439,7 @@
 			(uuid "2b9c16e6-07b6-4f73-8a66-5fd7b76fe3f9")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -15796,16 +15796,16 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "cb812eed-b81c-4bd2-ab72-0081e4242b27")
-		(at 111.4 134.8 180)
+		(at 110.9 134.6 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C27"
 			(at 0 -1.16 0)
 			(layer "F.SilkS")
-			(uuid "d7bf0b15-3082-4a7c-801a-0544a1f6be58")
+			(uuid "d836bb23-245b-4be6-8db5-232862113b14")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -15813,7 +15813,7 @@
 		(property "Value" "100n"
 			(at 0 1.16 0)
 			(layer "F.Fab")
-			(uuid "0c8e1857-b68a-4c0a-a78c-b76f13d67610")
+			(uuid "c85433e8-22f8-4b46-8945-64e880174198")
 			(effects
 				(font
 					(size 1 1)
@@ -15825,7 +15825,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "80cdd971-627a-4d91-a29a-d013df20e4ca")
+			(uuid "1ffa2875-e607-4513-894c-f458456410ed")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15836,7 +15836,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7177e0c5-2c2f-47ee-8bdd-83565dc5158d")
+			(uuid "ac4b61bd-1d96-4854-a4c0-3e7178b83cb1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15954,16 +15954,16 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "d041d7db-7d9a-4924-bfc3-f7898301fec9")
-		(at 124.6 78.8975 90)
+		(at 123.6 78.8975 90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R13"
 			(at 0 -1.17 90)
 			(layer "F.SilkS")
-			(uuid "75262b2d-c975-420f-8115-fe2ecdb8620d")
+			(uuid "d8ac8294-cb0e-4ef2-b580-a0feade9426a")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -15971,7 +15971,7 @@
 		(property "Value" "10k"
 			(at 0 1.17 90)
 			(layer "F.Fab")
-			(uuid "578e0fa0-53cc-41da-a7af-bf8a75e127cf")
+			(uuid "23ddbc60-4d90-4621-b54c-8429d5165ac6")
 			(effects
 				(font
 					(size 1 1)
@@ -15983,7 +15983,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e786e8d7-6124-4873-95a8-09fd239d54c4")
+			(uuid "920bd04e-6b9e-4f0b-b02e-09ba3ef1b074")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15994,7 +15994,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c05981e1-2eb5-4924-a57a-01303a8b133a")
+			(uuid "c5bb7ad3-e22d-4341-a163-d62d671d5a96")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16121,7 +16121,7 @@
 			(uuid "40845c9e-c0b5-4a87-aca1-daaaeff1a7a6")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -16279,7 +16279,7 @@
 			(uuid "b361be5c-ff21-45b7-9ab2-eefc005765bf")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -16428,7 +16428,7 @@
 	(footprint "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm"
 		(layer "F.Cu")
 		(uuid "d72e0513-6fb5-4361-92fe-8b625863485d")
-		(at 134.9 97.9)
+		(at 137.1 97.9)
 		(descr "QFN, 48 Pin (http://www.st.com/resource/en/datasheet/stm32f042k6.pdf#page=94)")
 		(tags "QFN NoLead ST_UFQFPN48 Analog_CP-48-13 JEDEC_MO-220-WKKD-4")
 		(property "Reference" "U1"
@@ -16437,7 +16437,7 @@
 			(uuid "155a5a4b-b119-461a-ad4b-ef3195e1be78")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -17437,7 +17437,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "db559dbe-9758-409e-a8f7-d7e12e465471")
-		(at 142.225 116.05 180)
+		(at 143.2 114.2 180)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R8"
@@ -17446,7 +17446,7 @@
 			(uuid "f36ee9f1-be0f-41cc-bbeb-db70a0e8542d")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -17595,16 +17595,16 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "dc1ac96c-329d-437c-a5e1-d84e5fed66dc")
-		(at 111.8 91.4 180)
+		(at 110.8 91.4 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C26"
 			(at 0 -1.16 0)
 			(layer "F.SilkS")
-			(uuid "2d12e285-d990-4fb3-82a8-6ea792d0fbb1")
+			(uuid "db77725c-9d44-4e62-89a9-95e26e7b2875")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -17612,7 +17612,7 @@
 		(property "Value" "100n"
 			(at 0 1.16 0)
 			(layer "F.Fab")
-			(uuid "a3422efc-98fa-45d8-b99d-0744f0c9d07b")
+			(uuid "cadd7722-6721-4548-ba77-ee805e78da10")
 			(effects
 				(font
 					(size 1 1)
@@ -17624,7 +17624,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cffc8eeb-9bfb-4cd0-bdb8-c806e362eae3")
+			(uuid "3541053d-e63e-401e-adb7-1ca9b7a20137")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17635,7 +17635,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0165c6c5-8774-4e28-af04-d943c18d609e")
+			(uuid "157cd308-8ba2-492b-9a0b-a43443b6007d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17753,7 +17753,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "dc3002e4-8601-493c-8a38-33d9d8c9e0a4")
-		(at 154.935 93.0675 90)
+		(at 155.3 92.6425 90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R12"
@@ -17762,7 +17762,7 @@
 			(uuid "9ec59e6b-e332-4273-9d84-21df7ec77f2a")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -17911,16 +17911,16 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "ddf53242-4e3f-4b77-874d-71ce8b9aee37")
-		(at 125.3375 75.4975)
+		(at 124.3375 75.4975)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C20"
 			(at 0 -1.68 0)
 			(layer "F.SilkS")
-			(uuid "b23f93cb-389b-4126-aa11-2147aad4737f")
+			(uuid "c822da8f-0f43-46a0-b19f-19940c5e7a9e")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -17928,7 +17928,7 @@
 		(property "Value" "10u"
 			(at 0 1.68 0)
 			(layer "F.Fab")
-			(uuid "e6dbd344-4959-4215-9756-321c4538d306")
+			(uuid "f4281e6b-ae2d-4eeb-9afa-9ce73d0abf33")
 			(effects
 				(font
 					(size 1 1)
@@ -17940,7 +17940,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d3f6d5f1-106a-4a09-8c57-3abd75096c62")
+			(uuid "d9983cc4-89be-454f-bf50-a5a000e0aef3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17951,7 +17951,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6ddf09c6-e0d8-4225-b030-16bb08dee476")
+			(uuid "5b7c2ae2-5591-42b4-a986-69ee8c343b9a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18069,7 +18069,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "de29e61b-8e3b-4cd5-a347-104640adec0f")
-		(at 162 57.22)
+		(at 163 56.92)
 		(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x04 2.54mm single row")
 		(property "Reference" "J10"
@@ -18078,7 +18078,7 @@
 			(uuid "ba5ebace-f070-46a7-bf40-b779e41163e8")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -18332,7 +18332,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "df53eff0-8305-4f7c-a61f-10d62e58e1a6")
-		(at 154.835 100.9725 -90)
+		(at 155.3 101.0625 -90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R11"
@@ -18341,7 +18341,7 @@
 			(uuid "cee5cea2-9185-473e-a25d-ff545cdfcd79")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -18499,7 +18499,7 @@
 			(uuid "600b2797-a0f6-4568-94a0-9721c51105a9")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -18739,7 +18739,7 @@
 			(uuid "8d24e7d8-04af-4381-8897-465fcfb3e7cc")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -18888,16 +18888,16 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "e739ce66-3a77-4a0d-976d-dd2f29a0e2bd")
-		(at 152.8 132.8 -90)
+		(at 152.6 132.8 -90)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C22"
-			(at 0 -1.68 90)
+			(at 0.9 -1.5 90)
 			(layer "F.SilkS")
 			(uuid "c7b22ed9-25bb-4397-a137-b03cdb981bc5")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -19055,7 +19055,7 @@
 			(uuid "1a039cf2-6b3a-4d7b-aee3-4d011436f456")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -19213,7 +19213,7 @@
 			(uuid "eb635a0e-7663-4398-ab61-c7fd49a45f91")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -19371,7 +19371,7 @@
 			(uuid "8fc3f6b6-4e97-4aed-9f52-982ca311e494")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -19520,7 +19520,7 @@
 	(footprint "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 		(layer "F.Cu")
 		(uuid "f8ec6f53-6119-4dd3-9629-239a7dc7c2ad")
-		(at 112.3 97.6)
+		(at 113.8 97.6)
 		(descr "CP, Radial series, Radial, pin pitch=3.50mm, diameter=8mm, height=12mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 3.50mm diameter 8mm height 12mm Electrolytic Capacitor")
 		(property "Reference" "C17"
@@ -19529,7 +19529,7 @@
 			(uuid "6691029f-fc60-463b-9ea8-a818712c323c")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -21271,7 +21271,7 @@
 			(uuid "00575ec3-98d8-430a-90c9-8ccbdf9c7387")
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 					(thickness 0.15)
 				)
 			)
@@ -21548,6 +21548,2600 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "bc66067f-6e0e-460a-bafc-0cf0793db73c")
+	)
+	(gr_text "7"
+		(at 108.8 56.6 270)
+		(layer "F.SilkS")
+		(uuid "6ad9e390-60ee-4cd4-8532-0a67c8ac70e0")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "6"
+		(at 108.8 59 270)
+		(layer "F.SilkS")
+		(uuid "f29f2020-05bf-418c-a60a-449c3c3f7f39")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "5"
+		(at 108.8 61.6 270)
+		(layer "F.SilkS")
+		(uuid "971ff1ff-02a0-438e-b751-f107d9d78c24")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "4"
+		(at 108.8 64 270)
+		(layer "F.SilkS")
+		(uuid "fd30ae80-fe80-494f-997e-dad306dfb1c5")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "3"
+		(at 108.8 66.8 270)
+		(layer "F.SilkS")
+		(uuid "02c32166-ad21-4529-a578-3cad0f05aeae")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "2"
+		(at 108.8 69 270)
+		(layer "F.SilkS")
+		(uuid "46a376b9-0e47-49e3-87c7-e0802f98fa83")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "1"
+		(at 108.8 71.6 270)
+		(layer "F.SilkS")
+		(uuid "167be04f-ab32-4617-8ad3-a106e999a650")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "0"
+		(at 108.8 74.2 270)
+		(layer "F.SilkS")
+		(uuid "111488a7-a6da-4a4f-993a-eb5ad4fd0540")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "15"
+		(at 108.8 76.4 270)
+		(layer "F.SilkS")
+		(uuid "c5faff98-ff4a-467d-9099-4043b2e17bbc")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "14"
+		(at 108.8 78.8 270)
+		(layer "F.SilkS")
+		(uuid "83499dcc-4117-4af2-beb1-5d982dc99e12")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "13"
+		(at 108.8 81.4 270)
+		(layer "F.SilkS")
+		(uuid "3f8a1f07-af86-4e6f-a6d3-a41c7d642076")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "12"
+		(at 108.8 84 270)
+		(layer "F.SilkS")
+		(uuid "3a794ffb-c77b-43cb-b390-6fafda61dce2")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "11"
+		(at 108.8 86.6 270)
+		(layer "F.SilkS")
+		(uuid "2cab94e7-8b40-4c44-b59c-61af3aec7e45")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "10"
+		(at 108.8 89.2 270)
+		(layer "F.SilkS")
+		(uuid "f7d04df2-8e64-4d2f-8efa-6326f922e431")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "9"
+		(at 108.8 92 270)
+		(layer "F.SilkS")
+		(uuid "ca4ec980-7b27-49ce-a3a5-e41ff86b91c1")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "8"
+		(at 108.8 94.4 270)
+		(layer "F.SilkS")
+		(uuid "9ed6eca3-dedd-47f2-90e8-372f8aaef4c0")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "23"
+		(at 108.8 99.4 270)
+		(layer "F.SilkS")
+		(uuid "47d7a6ce-d1a7-4b65-95fb-25f3dc9eff12")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "22"
+		(at 108.8 101.8 270)
+		(layer "F.SilkS")
+		(uuid "26ef08e4-a188-4f69-b714-8e11486ef34c")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "21"
+		(at 108.8 104.4 270)
+		(layer "F.SilkS")
+		(uuid "3c2ab4a6-c7e3-4bbc-b001-c3b2f6248076")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "20"
+		(at 108.8 107 270)
+		(layer "F.SilkS")
+		(uuid "96714636-d12c-4f09-8606-8a118bbda61e")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "19"
+		(at 108.8 109.6 270)
+		(layer "F.SilkS")
+		(uuid "5f074024-8ad4-4648-b42f-4359d230414c")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "18"
+		(at 108.8 112.2 270)
+		(layer "F.SilkS")
+		(uuid "49fd0f04-2054-4d3e-ad40-c52b47f4f0d5")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "17"
+		(at 108.8 114.6 270)
+		(layer "F.SilkS")
+		(uuid "09d9903c-a1ed-4c29-af8c-01d8052d5e64")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "16"
+		(at 108.8 117.2 270)
+		(layer "F.SilkS")
+		(uuid "bce4d80c-d3f0-48e4-90d6-073aff8493af")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "31"
+		(at 108.8 119.8 270)
+		(layer "F.SilkS")
+		(uuid "61d228da-4588-49c8-b710-008c92311f5c")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "30"
+		(at 108.8 122.2 270)
+		(layer "F.SilkS")
+		(uuid "9dea3dd5-b5f9-4102-b8fd-32fda8dfa863")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "29"
+		(at 108.8 124.8 270)
+		(layer "F.SilkS")
+		(uuid "3d7fb2ee-1b9f-4ffb-b22b-fd6d3b9d65d7")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "28"
+		(at 108.8 127.4 270)
+		(layer "F.SilkS")
+		(uuid "84de45f2-ec89-4f22-ac3c-7104a0834e09")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "27"
+		(at 108.8 130 270)
+		(layer "F.SilkS")
+		(uuid "7c309605-e2f6-4557-b541-52dbf24a0d3c")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "26"
+		(at 108.8 132.4 270)
+		(layer "F.SilkS")
+		(uuid "70d21e3b-8b88-42cf-afb9-b53ee037896a")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "25"
+		(at 108.8 135 270)
+		(layer "F.SilkS")
+		(uuid "474b06b5-801c-4c93-aaf4-c34839244490")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "24"
+		(at 108.8 137.4 270)
+		(layer "F.SilkS")
+		(uuid "87f4f9fd-603c-4d4f-acd4-e683ffbddb3a")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "VBUS"
+		(at 146 134.4 0)
+		(layer "F.SilkS" knockout)
+		(uuid "92e41ada-63ab-491c-9261-0a7ec4d3d2a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "3V3"
+		(at 146.4 138.4 0)
+		(layer "F.SilkS" knockout)
+		(uuid "038da275-40be-465b-b90e-ab2d2e11e71c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(segment
+		(start 139.35 101.3375)
+		(end 139.35 102.7725)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "b0c0bd11-9b4f-4cba-8ebb-4c5b3537e517")
+	)
+	(segment
+		(start 139.35 102.7725)
+		(end 139.0325 103.09)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "ec24f0d9-c5df-45fc-8911-a257e6e1e538")
+	)
+	(segment
+		(start 134.85 94.4625)
+		(end 134.85 92.905)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "f30b1902-e340-408e-b1d3-1ef9c1b12e2e")
+	)
+	(segment
+		(start 134.85 92.905)
+		(end 135.155 92.6)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "f8df5168-365e-4761-8c7f-8c35b083115d")
+	)
+	(segment
+		(start 117.6 73.200001)
+		(end 115.7 71.300001)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM0")
+		(uuid "2cc11ba6-a162-41c8-9f1b-a81b743ed2cb")
+	)
+	(segment
+		(start 115.7 71.300001)
+		(end 115.7 69.265686)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM0")
+		(uuid "39533b05-1aef-4797-86ca-eccfca306802")
+	)
+	(segment
+		(start 117.6 73.9375)
+		(end 117.6 73.200001)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM0")
+		(uuid "6784430d-00ab-4511-8568-7d4f617dc5fd")
+	)
+	(segment
+		(start 116.290686 68.675)
+		(end 117.275 68.675)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM0")
+		(uuid "78834055-948d-418b-aec0-1450948ec317")
+	)
+	(segment
+		(start 115.7 69.265686)
+		(end 116.290686 68.675)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM0")
+		(uuid "b93a511a-b310-483b-a402-627385c67961")
+	)
+	(segment
+		(start 115.3 69)
+		(end 116.275 68.025)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM1")
+		(uuid "11fbeebe-e381-46c5-9ba6-cd6d4c2e269b")
+	)
+	(segment
+		(start 116.275 68.025)
+		(end 117.275 68.025)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM1")
+		(uuid "15f3f1f3-970b-48bc-b5ea-e397cdecf2e8")
+	)
+	(segment
+		(start 116.95 73.9375)
+		(end 116.95 73.25)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM1")
+		(uuid "395c4738-0378-4e7d-95d7-d739b3710cf6")
+	)
+	(segment
+		(start 116.95 73.25)
+		(end 115.3 71.6)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM1")
+		(uuid "4de9e471-bd3d-43c7-bce1-b92e3517f364")
+	)
+	(segment
+		(start 115.3 71.6)
+		(end 115.3 69)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM1")
+		(uuid "7d331e48-a6bb-4c26-9bc8-e67c6b9f612c")
+	)
+	(segment
+		(start 114.8 71.7)
+		(end 114.8 68.9)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM2")
+		(uuid "50655cc4-245f-4d24-a9b1-bb58e28eb32b")
+	)
+	(segment
+		(start 116.3 73.9375)
+		(end 116.3 73.2)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM2")
+		(uuid "9cf56ae7-d470-4a55-9d01-03b143d45b8e")
+	)
+	(segment
+		(start 114.8 68.9)
+		(end 116.325 67.375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM2")
+		(uuid "abe6ea52-5888-45f3-9383-f60e4565f06e")
+	)
+	(segment
+		(start 116.3 73.2)
+		(end 114.8 71.7)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM2")
+		(uuid "bdd058b5-7f87-40b0-8335-34612b00f28e")
+	)
+	(segment
+		(start 116.325 67.375)
+		(end 117.275 67.375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM2")
+		(uuid "dd5d1414-361a-4f86-9a75-eb602a65a7e8")
+	)
+	(segment
+		(start 116.275 66.725)
+		(end 117.275 66.725)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM3")
+		(uuid "23b53abf-9ce6-4932-bef0-2c0e8feecc2a")
+	)
+	(segment
+		(start 114.4 72.031544)
+		(end 114.4 68.6)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM3")
+		(uuid "312f90b0-083c-41c6-82b6-d48833cacad9")
+	)
+	(segment
+		(start 115.65 73.9375)
+		(end 115.65 73.281544)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM3")
+		(uuid "3decf8ed-633e-4eb9-bcee-f5e67d277d6b")
+	)
+	(segment
+		(start 115.65 73.281544)
+		(end 114.4 72.031544)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM3")
+		(uuid "99a2a475-a537-446b-ba36-126999251781")
+	)
+	(segment
+		(start 114.4 68.6)
+		(end 116.275 66.725)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM3")
+		(uuid "9e397445-4309-4df3-9e6b-b7f91f9087b7")
+	)
+	(segment
+		(start 115 73.218714)
+		(end 114 72.218714)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM4")
+		(uuid "1b301c7b-3cb5-40f6-91cb-b296d2f3e58a")
+	)
+	(segment
+		(start 115 73.9375)
+		(end 115 73.218714)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM4")
+		(uuid "1b7d964c-254d-473b-9acb-214f0f5c0a31")
+	)
+	(segment
+		(start 114 72.218714)
+		(end 114 68.3)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM4")
+		(uuid "5faa3954-f543-4488-b384-6d74d7d5e0ba")
+	)
+	(segment
+		(start 116.225 66.075)
+		(end 117.275 66.075)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM4")
+		(uuid "73cef43d-2e33-4134-be24-0d155982fad1")
+	)
+	(segment
+		(start 114 68.3)
+		(end 116.225 66.075)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM4")
+		(uuid "8c38c6d6-fb57-4eb0-aa57-e6767ae4af3a")
+	)
+	(segment
+		(start 116.182843 65.425)
+		(end 117.275 65.425)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM5")
+		(uuid "7d5e3150-3ca4-4a3d-a438-e300f2de9108")
+	)
+	(segment
+		(start 113.6 72.384399)
+		(end 113.6 68.007843)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM5")
+		(uuid "992cc89b-6a50-447a-9fa3-0ba5a3910f1d")
+	)
+	(segment
+		(start 114.35 73.9375)
+		(end 114.35 73.1344)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM5")
+		(uuid "a063d63c-1ea6-49c6-b952-fe19eedc7d48")
+	)
+	(segment
+		(start 114.35 73.1344)
+		(end 113.6 72.384399)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM5")
+		(uuid "a7e2cc23-e8ee-41cc-bd5b-9e7964ecd656")
+	)
+	(segment
+		(start 113.6 68.007843)
+		(end 116.182843 65.425)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM5")
+		(uuid "d6adc955-abae-4180-9bf0-9e4927919d93")
+	)
+	(segment
+		(start 113.7 73.050086)
+		(end 113.1 72.450086)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM6")
+		(uuid "070fea3b-05be-4b04-88c8-90990a0f0f82")
+	)
+	(segment
+		(start 113.1 67.8)
+		(end 116.125 64.775)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM6")
+		(uuid "1844cd44-bdf3-4bc8-8f01-34dc67ba1875")
+	)
+	(segment
+		(start 113.1 72.450086)
+		(end 113.1 67.8)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM6")
+		(uuid "198ca861-d6fb-4edf-862f-be0d7789c6c5")
+	)
+	(segment
+		(start 113.7 73.9375)
+		(end 113.7 73.050086)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM6")
+		(uuid "8f157ad9-09ee-4b80-9c9c-94a6e7ae115f")
+	)
+	(segment
+		(start 116.125 64.775)
+		(end 117.275 64.775)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM6")
+		(uuid "b329179e-857c-4a37-9475-88a3760c324b")
+	)
+	(segment
+		(start 112.6 72.6)
+		(end 112.6 67.6)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM7")
+		(uuid "5b287f72-9f90-4967-876e-3b3f55613393")
+	)
+	(segment
+		(start 112.6 67.6)
+		(end 116.075 64.125)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM7")
+		(uuid "9a6979b8-2153-4637-be5d-7b4786e120c4")
+	)
+	(segment
+		(start 116.075 64.125)
+		(end 117.275 64.125)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM7")
+		(uuid "a947f385-59e3-4625-a776-ece525471fd3")
+	)
+	(segment
+		(start 113.05 73.05)
+		(end 112.6 72.6)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM7")
+		(uuid "c3cee4a2-1aec-46e8-a41e-a526f5966fa1")
+	)
+	(segment
+		(start 113.05 73.9375)
+		(end 113.05 73.05)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM7")
+		(uuid "e0f2ee8f-3d90-4149-be09-6bbda72e9b11")
+	)
+	(segment
+		(start 111.525 63.475)
+		(end 108.7 60.65)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM7_5V")
+		(uuid "3d566ec5-ba58-493d-84d2-c0cf9bad4cc2")
+	)
+	(segment
+		(start 108.7 58.63)
+		(end 106.85 56.78)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM7_5V")
+		(uuid "6e79bce6-c9ff-49a6-b5d8-34997f3b2d9c")
+	)
+	(segment
+		(start 108.7 60.65)
+		(end 108.7 58.63)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM7_5V")
+		(uuid "bf7f23bb-601e-475a-b091-6b0ca5bbe1d7")
+	)
+	(segment
+		(start 106.85 60.233654)
+		(end 106.85 59.32)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM6_5V")
+		(uuid "17fb7244-3a69-4894-ac0c-63b36c1658d0")
+	)
+	(segment
+		(start 110.741346 64.125)
+		(end 106.85 60.233654)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM6_5V")
+		(uuid "3eabbe4c-871a-4115-a1b8-753edb403bcf")
+	)
+	(segment
+		(start 111.525 64.125)
+		(end 110.741346 64.125)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM6_5V")
+		(uuid "f10ea4c9-2e4e-494f-bec1-a801ee2c6732")
+	)
+	(segment
+		(start 111.525 64.775)
+		(end 109.765 64.775)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM5_5V")
+		(uuid "29a17745-566b-4daa-846e-e4c558677556")
+	)
+	(segment
+		(start 109.765 64.775)
+		(end 106.85 61.86)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM5_5V")
+		(uuid "572eb8c8-af3e-4348-83eb-503642510753")
+	)
+	(segment
+		(start 111.525 65.425)
+		(end 107.875 65.425)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM4_5V")
+		(uuid "577e0062-296b-406b-abf2-c615fe99a905")
+	)
+	(segment
+		(start 107.875 65.425)
+		(end 106.85 64.4)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM4_5V")
+		(uuid "d374dbd1-cb40-4a8a-bbaf-8a21cde9b928")
+	)
+	(segment
+		(start 111.525 66.075)
+		(end 107.925 66.075)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM3_5V")
+		(uuid "2ddfb0c1-b629-4cc9-bac7-2102db695b8c")
+	)
+	(segment
+		(start 107.925 66.075)
+		(end 107.06 66.94)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM3_5V")
+		(uuid "3648cdc1-16b7-4885-94c1-c49130b085db")
+	)
+	(segment
+		(start 107.06 66.94)
+		(end 106.85 66.94)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM3_5V")
+		(uuid "abd235f5-5835-4dd1-9b6d-a662d56972dd")
+	)
+	(segment
+		(start 109.605 66.725)
+		(end 106.85 69.48)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM2_5V")
+		(uuid "d06093a3-3159-4649-9b14-80ec7d858653")
+	)
+	(segment
+		(start 111.525 66.725)
+		(end 109.605 66.725)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM2_5V")
+		(uuid "e64e0817-ea2a-4176-bd4d-4e46236faf8f")
+	)
+	(segment
+		(start 110.750001 67.375)
+		(end 106.85 71.275001)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM1_5V")
+		(uuid "1f4f38b4-3053-4981-a3a4-3fbf758b3684")
+	)
+	(segment
+		(start 106.85 71.275001)
+		(end 106.85 72.02)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM1_5V")
+		(uuid "80f0c364-a0a8-4ce4-8be5-b3c68eb373c7")
+	)
+	(segment
+		(start 111.525 67.375)
+		(end 110.750001 67.375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM1_5V")
+		(uuid "8a4fa4af-89e5-4116-8a0d-c6d54372fa50")
+	)
+	(segment
+		(start 111.525 68.025)
+		(end 110.831544 68.025)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM0_5V")
+		(uuid "0927094e-3d2c-4800-b302-6d63eb5261e0")
+	)
+	(segment
+		(start 108.7 70.156544)
+		(end 108.7 72.71)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM0_5V")
+		(uuid "268f6fdc-4988-4a44-a663-fb283f1c8786")
+	)
+	(segment
+		(start 108.7 72.71)
+		(end 106.85 74.56)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM0_5V")
+		(uuid "7d7e53af-74e1-4708-af2b-163c2c1c3813")
+	)
+	(segment
+		(start 110.831544 68.025)
+		(end 108.7 70.156544)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM0_5V")
+		(uuid "8131ee76-03cc-4271-a1e8-9ee6d160c941")
+	)
+	(segment
+		(start 139.85 101.3375)
+		(end 139.85 102.7725)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+3.3V")
+		(uuid "0c482233-698a-41b4-8ba4-7e2ec8af7913")
+	)
+	(segment
+		(start 133.635 95.1225)
+		(end 133.6625 95.15)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+3.3V")
+		(uuid "1f56800e-a00e-4392-b1e8-f99a81d8b881")
+	)
+	(segment
+		(start 132.5075 99.15)
+		(end 133.6625 99.15)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+3.3V")
+		(uuid "4ffa7342-7f14-4deb-bbea-d61783cc9bbc")
+	)
+	(segment
+		(start 134.35 92.93)
+		(end 134.02 92.6)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+3.3V")
+		(uuid "5622c06f-33d0-41a9-a787-35272d8803db")
+	)
+	(segment
+		(start 142.295 95.15)
+		(end 142.4875 94.9575)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+3.3V")
+		(uuid "56934dec-71b4-470e-86bb-2b7b667c1e7c")
+	)
+	(segment
+		(start 132.1825 95.15)
+		(end 131.9 94.8675)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+3.3V")
+		(uuid "71a9990b-5b60-4f4e-aacf-fe819881d7c9")
+	)
+	(segment
+		(start 140.5375 95.15)
+		(end 142.295 95.15)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+3.3V")
+		(uuid "972c32ac-e0a7-46f3-944a-542b574cccee")
+	)
+	(segment
+		(start 139.85 102.7725)
+		(end 140.1675 103.09)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+3.3V")
+		(uuid "abbe26d0-2889-4a02-81f8-ce0b2f8affd5")
+	)
+	(segment
+		(start 131.9 99.7575)
+		(end 132.5075 99.15)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+3.3V")
+		(uuid "e1edef60-8704-42cf-b2fc-680a5ef39594")
+	)
+	(segment
+		(start 133.6625 95.15)
+		(end 132.1825 95.15)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+3.3V")
+		(uuid "eea66976-f504-4754-94ad-55cd2f412ce7")
+	)
+	(segment
+		(start 134.35 94.4625)
+		(end 134.35 92.93)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "+3.3V")
+		(uuid "f60582ef-31f4-49cd-b575-050978d43226")
+	)
+	(segment
+		(start 129.2825 97.65)
+		(end 128.4 98.5325)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/mcu/HSE_OUT")
+		(uuid "959e9f3b-8508-4ea9-8279-265c98ec09b3")
+	)
+	(segment
+		(start 133.6625 97.65)
+		(end 129.2825 97.65)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/mcu/HSE_OUT")
+		(uuid "a0ad2987-e1ec-4e67-ae96-e1292482aeaa")
+	)
+	(segment
+		(start 128.3575 98.49)
+		(end 128.4 98.5325)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/mcu/HSE_OUT")
+		(uuid "dc9d31af-473a-49a6-9d86-eff2b40db81b")
+	)
+	(segment
+		(start 126.4375 98.49)
+		(end 128.3575 98.49)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/mcu/HSE_OUT")
+		(uuid "e19b3bfc-9c19-42b2-a365-d87c97d3774b")
+	)
+	(segment
+		(start 133.645 97.1675)
+		(end 133.6625 97.15)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/mcu/HSE_IN")
+		(uuid "5137d3fb-7231-465a-b568-458583180d17")
+	)
+	(segment
+		(start 124.7375 96.29)
+		(end 125.7375 97.29)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/mcu/HSE_IN")
+		(uuid "70b40753-ea40-4254-acf6-d76b8eef8e97")
+	)
+	(segment
+		(start 128.2775 97.29)
+		(end 128.4 97.1675)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/mcu/HSE_IN")
+		(uuid "8b980f5b-c57c-499f-b6da-93dddbc346c3")
+	)
+	(segment
+		(start 133.6625 97.15)
+		(end 128.4175 97.15)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/mcu/HSE_IN")
+		(uuid "901cddd4-1d74-4db4-8a82-9fde16993b6a")
+	)
+	(segment
+		(start 125.7375 97.29)
+		(end 128.2775 97.29)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/mcu/HSE_IN")
+		(uuid "d7c2db08-b9d8-48dd-b16d-91f394795e3a")
+	)
+	(segment
+		(start 128.4175 97.15)
+		(end 128.4 97.1675)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/mcu/HSE_IN")
+		(uuid "e1994244-dda6-4cba-a45b-d4cd045166c8")
+	)
+	(segment
+		(start 114.9875 132.2875)
+		(end 117.0875 132.2875)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM24")
+		(uuid "10f728c1-45e0-4fb1-b3ed-cc84e01d6206")
+	)
+	(segment
+		(start 112.4125 122.8525)
+		(end 112.4125 129.7125)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM24")
+		(uuid "6a786d67-12ee-419f-8f1b-e47d913d45aa")
+	)
+	(segment
+		(start 112.4125 129.7125)
+		(end 114.9875 132.2875)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM24")
+		(uuid "85e5b5ea-476f-498b-9159-6e3526795e4c")
+	)
+	(segment
+		(start 113.0625 123.7375)
+		(end 112.9125 123.8875)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM25")
+		(uuid "08963248-8298-4b76-8ee0-d8e7ba22ec96")
+	)
+	(segment
+		(start 115.2375 131.6375)
+		(end 117.0875 131.6375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM25")
+		(uuid "2b4eac4f-bbe8-407c-b285-e1def603dfca")
+	)
+	(segment
+		(start 112.9125 129.3125)
+		(end 115.2375 131.6375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM25")
+		(uuid "527c19f3-b7be-45da-b6b8-45de3b81468f")
+	)
+	(segment
+		(start 112.9125 123.8875)
+		(end 112.9125 129.3125)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM25")
+		(uuid "9ba60e3c-7fd9-49d5-b230-089632d9e7f2")
+	)
+	(segment
+		(start 113.0625 122.8525)
+		(end 113.0625 123.7375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM25")
+		(uuid "ba2c566e-1e9c-428b-bced-99d0f41d49d0")
+	)
+	(segment
+		(start 113.7125 122.8525)
+		(end 113.7125 123.8875)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM26")
+		(uuid "4117c003-b132-4ff2-90be-5477a5b9746f")
+	)
+	(segment
+		(start 113.4125 129.0125)
+		(end 115.3875 130.9875)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM26")
+		(uuid "45b5407b-2e84-468b-8cba-39922217359f")
+	)
+	(segment
+		(start 113.7125 123.8875)
+		(end 113.4125 124.1875)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM26")
+		(uuid "7fe9bbbb-984c-4ebc-8aef-a0971569e19b")
+	)
+	(segment
+		(start 113.4125 124.1875)
+		(end 113.4125 129.0125)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM26")
+		(uuid "c7815039-a5ca-466c-8e21-37b9c8cc1e6f")
+	)
+	(segment
+		(start 115.3875 130.9875)
+		(end 117.0875 130.9875)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM26")
+		(uuid "ddd3f0f4-c548-4dea-a60c-cf49f0904d65")
+	)
+	(segment
+		(start 113.9125 124.3875)
+		(end 113.9125 128.7125)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM27")
+		(uuid "2af03766-ce2f-4d3c-b3e2-520ba32f7f92")
+	)
+	(segment
+		(start 115.5375 130.3375)
+		(end 117.0875 130.3375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM27")
+		(uuid "8288b2a5-f008-4862-92ee-bd2911d577d6")
+	)
+	(segment
+		(start 114.3625 123.9375)
+		(end 113.9125 124.3875)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM27")
+		(uuid "872788e8-3d66-4c01-85d1-ef418e4aedc5")
+	)
+	(segment
+		(start 113.9125 128.7125)
+		(end 115.5375 130.3375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM27")
+		(uuid "8d6dc3ac-a6e5-46d8-9444-4c283ce17fa1")
+	)
+	(segment
+		(start 114.3625 122.8525)
+		(end 114.3625 123.9375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM27")
+		(uuid "fd24c89c-6920-4e0c-b4c1-f44891625a97")
+	)
+	(segment
+		(start 114.4125 124.4875)
+		(end 114.4125 128.4125)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM28")
+		(uuid "223e9479-2744-4cf4-89ad-0588877be0a1")
+	)
+	(segment
+		(start 115.0125 123.8875)
+		(end 114.4125 124.4875)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM28")
+		(uuid "2ac652a4-6d5c-40ae-9f7f-0390fa66217f")
+	)
+	(segment
+		(start 114.4125 128.4125)
+		(end 115.6875 129.6875)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM28")
+		(uuid "5a67a407-2a72-4135-8deb-351d799873ec")
+	)
+	(segment
+		(start 115.6875 129.6875)
+		(end 117.0875 129.6875)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM28")
+		(uuid "8cf677ba-0147-4d37-957a-aeb7ab2f905c")
+	)
+	(segment
+		(start 115.0125 122.8525)
+		(end 115.0125 123.8875)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM28")
+		(uuid "c277b503-59d5-4f12-9738-f1936a639cc8")
+	)
+	(segment
+		(start 115.8375 129.0375)
+		(end 117.0875 129.0375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM29")
+		(uuid "23b84802-53a0-41cb-b076-fd44cd3db068")
+	)
+	(segment
+		(start 115.6625 122.8525)
+		(end 115.6625 123.9375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM29")
+		(uuid "9d23bea4-f315-4b15-8a37-3527cf513894")
+	)
+	(segment
+		(start 114.9125 124.6875)
+		(end 114.9125 128.1125)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM29")
+		(uuid "db038433-2759-4dfe-b8e2-85bc9329a285")
+	)
+	(segment
+		(start 114.9125 128.1125)
+		(end 115.8375 129.0375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM29")
+		(uuid "ed57ee34-a5c5-4911-a103-926c6b7e9ff3")
+	)
+	(segment
+		(start 115.6625 123.9375)
+		(end 114.9125 124.6875)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM29")
+		(uuid "f81b7088-227b-4126-856f-94e202646d68")
+	)
+	(segment
+		(start 115.4125 127.7125)
+		(end 116.0875 128.3875)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM30")
+		(uuid "0ddfc26a-ed7e-4780-a803-ab726a4aca29")
+	)
+	(segment
+		(start 116.3125 123.9875)
+		(end 115.4125 124.8875)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM30")
+		(uuid "3035702c-8932-4611-bf51-cfecbed98a58")
+	)
+	(segment
+		(start 116.0875 128.3875)
+		(end 117.0875 128.3875)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM30")
+		(uuid "6222b021-26ae-4a95-ba84-cd6f192d60bb")
+	)
+	(segment
+		(start 115.4125 124.8875)
+		(end 115.4125 127.7125)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM30")
+		(uuid "f27d75f9-3d59-44ec-81d5-1a0bd66a74f7")
+	)
+	(segment
+		(start 116.3125 122.8525)
+		(end 116.3125 123.9875)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM30")
+		(uuid "fdf37b52-6bf8-4e2d-af48-0e0bb6acc7ae")
+	)
+	(segment
+		(start 116.1375 127.7375)
+		(end 117.0875 127.7375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM31")
+		(uuid "0f907401-2ec1-4128-8fc3-5f7776df2c21")
+	)
+	(segment
+		(start 116.9625 124.0375)
+		(end 115.8125 125.1875)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM31")
+		(uuid "232eb690-7d30-4e08-a3f5-88426d231ed7")
+	)
+	(segment
+		(start 116.9625 122.8525)
+		(end 116.9625 124.0375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM31")
+		(uuid "78561b01-59c6-474e-8274-562c2325503b")
+	)
+	(segment
+		(start 115.8125 127.4125)
+		(end 116.1375 127.7375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM31")
+		(uuid "c06dda4d-2fda-4871-bde1-73e4b365025c")
+	)
+	(segment
+		(start 115.8125 125.1875)
+		(end 115.8125 127.4125)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM31")
+		(uuid "ffda9633-d743-44a7-be5a-fc988506b45c")
+	)
+	(segment
+		(start 111.3375 124.9275)
+		(end 106.85 120.44)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM31_5V")
+		(uuid "03fea8eb-1622-428e-8d14-5a329730ec1d")
+	)
+	(segment
+		(start 111.3375 127.0875)
+		(end 111.3375 124.9275)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM31_5V")
+		(uuid "670e767a-cc67-4235-98b9-918566148c74")
+	)
+	(segment
+		(start 111.3375 127.7375)
+		(end 110.562501 127.7375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM30_5V")
+		(uuid "0b26f664-839d-449a-91c6-b1974426c383")
+	)
+	(segment
+		(start 108 125.174999)
+		(end 108 124.13)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM30_5V")
+		(uuid "25d97fed-e510-43ca-90d2-ee15e0d457d9")
+	)
+	(segment
+		(start 110.562501 127.7375)
+		(end 108 125.174999)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM30_5V")
+		(uuid "5d9a7ca9-0bbf-438e-bb86-547b315af78e")
+	)
+	(segment
+		(start 108 124.13)
+		(end 106.85 122.98)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM30_5V")
+		(uuid "7fb861cd-b138-40e3-8353-118e62566f7f")
+	)
+	(segment
+		(start 111.3375 128.3875)
+		(end 109.7175 128.3875)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM29_5V")
+		(uuid "1d4c9897-b7d7-485a-93e3-00bd40237e8a")
+	)
+	(segment
+		(start 109.7175 128.3875)
+		(end 106.85 125.52)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM29_5V")
+		(uuid "e39bd9ae-4c00-4efd-94ed-a68df451aa89")
+	)
+	(segment
+		(start 107.8275 129.0375)
+		(end 106.85 128.06)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM28_5V")
+		(uuid "21beee2f-80b2-428f-91ee-ae8d382f1a55")
+	)
+	(segment
+		(start 111.3375 129.0375)
+		(end 107.8275 129.0375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM28_5V")
+		(uuid "890de0c7-3e9a-4da8-9978-b825ec030237")
+	)
+	(segment
+		(start 107.7625 129.6875)
+		(end 106.85 130.6)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM27_5V")
+		(uuid "310fdeba-a6d5-4f92-bba0-816d769c73a8")
+	)
+	(segment
+		(start 111.3375 129.6875)
+		(end 107.7625 129.6875)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM27_5V")
+		(uuid "3f2e4839-4ae2-4e2f-809b-879be74cd424")
+	)
+	(segment
+		(start 111.3375 130.3375)
+		(end 109.6525 130.3375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM26_5V")
+		(uuid "3a0a3b95-4755-4a30-b767-49d3a218a56e")
+	)
+	(segment
+		(start 109.6525 130.3375)
+		(end 106.85 133.14)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM26_5V")
+		(uuid "f8596591-2be3-40bf-8ad9-0b11b78233b4")
+	)
+	(segment
+		(start 110.644044 130.9875)
+		(end 106.85 134.781544)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM25_5V")
+		(uuid "8fdf65a2-4e55-4cc0-b43e-ce88f2878688")
+	)
+	(segment
+		(start 111.3375 130.9875)
+		(end 110.644044 130.9875)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM25_5V")
+		(uuid "a4d2eb8a-20b1-4924-87ff-fb7c0c5eb484")
+	)
+	(segment
+		(start 106.85 134.781544)
+		(end 106.85 135.68)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM25_5V")
+		(uuid "e75df5cc-1fca-4d7d-9806-29233569708b")
+	)
+	(segment
+		(start 108.7 136.37)
+		(end 106.85 138.22)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM24_5V")
+		(uuid "16270814-2905-4ace-acb7-688aabfe58ea")
+	)
+	(segment
+		(start 108.7 133.500001)
+		(end 108.7 136.37)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM24_5V")
+		(uuid "5062ec1f-f386-4b77-84d8-bc11dfbbf1bb")
+	)
+	(segment
+		(start 110.562501 131.6375)
+		(end 108.7 133.500001)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM24_5V")
+		(uuid "96f4f2db-a295-45ef-b7c3-629e1f0b1d03")
+	)
+	(segment
+		(start 111.3375 131.6375)
+		(end 110.562501 131.6375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM24_5V")
+		(uuid "c9c49c9a-86bf-4aec-81d1-87767f27a22a")
+	)
+	(segment
+		(start 112.4 86.2)
+		(end 115.075 88.875)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM8")
+		(uuid "2a75197c-0f72-4a57-9c2c-708208a1f37a")
+	)
+	(segment
+		(start 115.075 88.875)
+		(end 117.075 88.875)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM8")
+		(uuid "35c469da-92cd-4040-8ac2-6d155696437d")
+	)
+	(segment
+		(start 112.4 79.6625)
+		(end 112.4 86.2)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM8")
+		(uuid "bbc87f0d-b48d-419d-9b24-bd99136dbaba")
+	)
+	(segment
+		(start 113.05 80.318456)
+		(end 112.9 80.468456)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM9")
+		(uuid "2808c0e0-5b07-4c4c-9c3f-01ba350b743a")
+	)
+	(segment
+		(start 112.9 85.9)
+		(end 115.225 88.225)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM9")
+		(uuid "4a12fdbf-95b9-498d-81e1-e6c6083331b4")
+	)
+	(segment
+		(start 113.05 79.6625)
+		(end 113.05 80.318456)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM9")
+		(uuid "b899e177-65de-40d1-8427-acd945073ac8")
+	)
+	(segment
+		(start 115.225 88.225)
+		(end 117.075 88.225)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM9")
+		(uuid "bbab709f-7fb0-4bd7-bcca-062698d75cb0")
+	)
+	(segment
+		(start 112.9 80.468456)
+		(end 112.9 85.9)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM9")
+		(uuid "eee8ddba-8b98-4d19-9bec-786cb0b0e608")
+	)
+	(segment
+		(start 113.4 80.787086)
+		(end 113.4 85.7)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM10")
+		(uuid "39799807-a52e-48ed-bfd1-5d12f08e4483")
+	)
+	(segment
+		(start 113.7 80.487086)
+		(end 113.4 80.787086)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM10")
+		(uuid "868b0aea-bef0-44e5-a89f-d5ded397d87d")
+	)
+	(segment
+		(start 113.4 85.7)
+		(end 115.275 87.575)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM10")
+		(uuid "adc0959c-9ed6-423f-a0d8-6c775b35edec")
+	)
+	(segment
+		(start 115.275 87.575)
+		(end 117.075 87.575)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM10")
+		(uuid "c0ac03d6-908c-4993-b0dc-a54b03933348")
+	)
+	(segment
+		(start 113.7 79.6625)
+		(end 113.7 80.487086)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM10")
+		(uuid "c6b7be87-a750-4a73-bcaa-3dce0d21abd4")
+	)
+	(segment
+		(start 115.425 86.925)
+		(end 117.075 86.925)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM11")
+		(uuid "311ab176-63cf-415e-853f-c12682c612fb")
+	)
+	(segment
+		(start 114.35 80.402771)
+		(end 113.9 80.852771)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM11")
+		(uuid "56e85496-6682-4245-96f4-421b0c206339")
+	)
+	(segment
+		(start 113.9 80.852771)
+		(end 113.9 85.4)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM11")
+		(uuid "97064c9f-ed26-4bbc-905f-fe9b987932d0")
+	)
+	(segment
+		(start 114.35 79.6625)
+		(end 114.35 80.402771)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM11")
+		(uuid "d01c4538-91fe-4400-81a4-37f12b02376a")
+	)
+	(segment
+		(start 113.9 85.4)
+		(end 115.425 86.925)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM11")
+		(uuid "dab2a62c-a6e4-49a8-9f87-4f6b20cb5996")
+	)
+	(segment
+		(start 115.675 86.275)
+		(end 117.075 86.275)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM12")
+		(uuid "20166547-19cb-49fa-9df7-b50873a85a10")
+	)
+	(segment
+		(start 114.4 80.918456)
+		(end 114.4 85)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM12")
+		(uuid "65089251-00e9-4c45-b530-b1d5e2fcc7f4")
+	)
+	(segment
+		(start 114.4 85)
+		(end 115.675 86.275)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM12")
+		(uuid "68fe1409-af8e-41ac-8da9-62cf9bec4aa0")
+	)
+	(segment
+		(start 115 80.318456)
+		(end 114.4 80.918456)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM12")
+		(uuid "cc86a7a2-c935-4542-b2ba-cefa6686af35")
+	)
+	(segment
+		(start 115 79.6625)
+		(end 115 80.318456)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM12")
+		(uuid "f7e33475-6296-4a8c-a0a9-09f029ff8f99")
+	)
+	(segment
+		(start 114.9 81.2)
+		(end 114.9 84.6)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM13")
+		(uuid "41316abc-15a3-40de-bb5e-856bbb33fbbc")
+	)
+	(segment
+		(start 115.65 79.6625)
+		(end 115.65 80.45)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM13")
+		(uuid "9b539b03-9b01-419a-9ab5-00298ab27579")
+	)
+	(segment
+		(start 115.65 80.45)
+		(end 114.9 81.2)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM13")
+		(uuid "a617d87e-6df1-4d8e-9052-b1354ecee223")
+	)
+	(segment
+		(start 115.925 85.625)
+		(end 117.075 85.625)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM13")
+		(uuid "c5c726c5-e42b-4820-b1d1-0b647fac3bf9")
+	)
+	(segment
+		(start 114.9 84.6)
+		(end 115.925 85.625)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM13")
+		(uuid "cfeb7c1f-efec-418c-bba1-43b76ce196c1")
+	)
+	(segment
+		(start 116.131293 84.975)
+		(end 117.075 84.975)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM14")
+		(uuid "34df88da-f92b-49df-8850-adb2557af2cb")
+	)
+	(segment
+		(start 115.4 81.4)
+		(end 115.4 84.243707)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM14")
+		(uuid "61a16258-61d1-4e8f-ae69-c4143574390d")
+	)
+	(segment
+		(start 116.3 80.5)
+		(end 115.4 81.4)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM14")
+		(uuid "7236231d-0e30-451f-b804-f2128fa6ab6e")
+	)
+	(segment
+		(start 116.3 79.6625)
+		(end 116.3 80.5)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM14")
+		(uuid "cc094fe8-53f7-4547-80b5-eab7c10082cb")
+	)
+	(segment
+		(start 115.4 84.243707)
+		(end 116.131293 84.975)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM14")
+		(uuid "eac85104-e7e2-4a47-b108-c70774771cc8")
+	)
+	(segment
+		(start 116.225 84.325)
+		(end 117.075 84.325)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM15")
+		(uuid "12e2282f-ec1b-45a6-b65e-9ede751188bd")
+	)
+	(segment
+		(start 116.95 80.55)
+		(end 115.9 81.6)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM15")
+		(uuid "2e490bc8-8d65-4c49-80a4-494bdf25560f")
+	)
+	(segment
+		(start 116.95 79.6625)
+		(end 116.95 80.55)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM15")
+		(uuid "855ec484-e388-4768-a6d1-70833eb37198")
+	)
+	(segment
+		(start 115.9 81.6)
+		(end 115.9 84)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM15")
+		(uuid "a49c3946-34fc-4cf8-bf90-3d7c8fa7ce84")
+	)
+	(segment
+		(start 115.9 84)
+		(end 116.225 84.325)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM15")
+		(uuid "c1296835-7210-4af4-b125-e6c8876c6f9e")
+	)
+	(segment
+		(start 115.5125 114.290001)
+		(end 115.5125 112.5875)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM16")
+		(uuid "537391f8-75fb-418d-a941-614eb46b35e8")
+	)
+	(segment
+		(start 115.5125 112.5875)
+		(end 116.2375 111.8625)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM16")
+		(uuid "95a7ee35-ae02-4f2d-b85e-e6ff61d4e6ea")
+	)
+	(segment
+		(start 117.6125 117.1275)
+		(end 117.6125 116.390001)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM16")
+		(uuid "bf308747-18e8-469f-884a-0d22e4ac8e1d")
+	)
+	(segment
+		(start 116.2375 111.8625)
+		(end 117.2875 111.8625)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM16")
+		(uuid "cd8a2653-a91b-4a34-a8a0-1c5ecf30be27")
+	)
+	(segment
+		(start 117.6125 116.390001)
+		(end 115.5125 114.290001)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM16")
+		(uuid "ec5b4baf-786c-4f3b-ab66-c348aca8979e")
+	)
+	(segment
+		(start 115.0125 114.4875)
+		(end 115.0125 112.3875)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM17")
+		(uuid "063d6ed6-1dac-493a-bd0d-0d6e9edb607f")
+	)
+	(segment
+		(start 115.0125 112.3875)
+		(end 116.1875 111.2125)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM17")
+		(uuid "4c27f122-9234-45dc-a4f6-5b01c3e8d08d")
+	)
+	(segment
+		(start 116.9625 117.1275)
+		(end 116.9625 116.4375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM17")
+		(uuid "8192172f-0f9c-4340-b332-5f2fb857b11f")
+	)
+	(segment
+		(start 116.1875 111.2125)
+		(end 117.2875 111.2125)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM17")
+		(uuid "87f04285-b106-4ec3-930d-31c25054af7f")
+	)
+	(segment
+		(start 116.9625 116.4375)
+		(end 115.0125 114.4875)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM17")
+		(uuid "b379255d-ec27-4cf8-b578-ba1e06526704")
+	)
+	(segment
+		(start 116.204657 110.5625)
+		(end 114.6125 112.154657)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM18")
+		(uuid "4305825e-6371-437d-8fc4-47b252d14902")
+	)
+	(segment
+		(start 117.2875 110.5625)
+		(end 116.204657 110.5625)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM18")
+		(uuid "946108c9-bf0f-4def-a7db-16811112d213")
+	)
+	(segment
+		(start 116.3125 116.3875)
+		(end 116.3125 117.1275)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM18")
+		(uuid "b399b188-32ba-4dbe-bb04-15df625a828b")
+	)
+	(segment
+		(start 114.6125 114.6875)
+		(end 116.3125 116.3875)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM18")
+		(uuid "e141215a-824c-4b64-a14d-22a5466f32d1")
+	)
+	(segment
+		(start 114.6125 112.154657)
+		(end 114.6125 114.6875)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM18")
+		(uuid "fab7c847-7bda-4f5d-8018-363737954efa")
+	)
+	(segment
+		(start 115.6625 116.3375)
+		(end 114.2125 114.8875)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM19")
+		(uuid "71d9d115-dbcc-46a4-83ce-36ac92e44d1a")
+	)
+	(segment
+		(start 116.1875 109.9125)
+		(end 117.2875 109.9125)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM19")
+		(uuid "7c2da38d-23eb-49ca-9d0a-2ac168c59f8f")
+	)
+	(segment
+		(start 114.2125 114.8875)
+		(end 114.2125 111.8875)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM19")
+		(uuid "9b4dfd72-1c8b-4cdf-9d82-d736907023b0")
+	)
+	(segment
+		(start 115.6625 117.1275)
+		(end 115.6625 116.3375)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM19")
+		(uuid "ccc98b17-c35e-4068-b562-b7c2a018e2a5")
+	)
+	(segment
+		(start 114.2125 111.8875)
+		(end 116.1875 109.9125)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM19")
+		(uuid "e5bc0c16-c3fc-40a3-953f-801f3260a5e3")
+	)
+	(segment
+		(start 115.0125 117.1275)
+		(end 115.0125 116.471544)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM20")
+		(uuid "485ef4be-4083-4903-9b7e-36da29b4dbf8")
+	)
+	(segment
+		(start 116.1375 109.2625)
+		(end 117.2875 109.2625)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM20")
+		(uuid "6717659a-d6f2-42d3-b449-0f124d8be45d")
+	)
+	(segment
+		(start 113.8125 115.271544)
+		(end 113.8125 111.5875)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM20")
+		(uuid "cb4261fb-d4ac-46ba-8c88-918f9b247aa4")
+	)
+	(segment
+		(start 115.0125 116.471544)
+		(end 113.8125 115.271544)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM20")
+		(uuid "d6686e14-96e5-477e-964f-1181b11995f9")
+	)
+	(segment
+		(start 113.8125 111.5875)
+		(end 116.1375 109.2625)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM20")
+		(uuid "dd3b8ab3-e4c9-4fef-a58f-b047e8b5518e")
+	)
+	(segment
+		(start 114.3625 117.1275)
+		(end 114.3625 116.471544)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM21")
+		(uuid "47e5588c-7308-4ff1-a7ee-ab149b8d6d66")
+	)
+	(segment
+		(start 113.4125 115.521544)
+		(end 113.4125 111.2875)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM21")
+		(uuid "6024ffc2-6896-4d7a-8245-7488db9459e3")
+	)
+	(segment
+		(start 114.3625 116.471544)
+		(end 113.4125 115.521544)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM21")
+		(uuid "99861e8f-a604-4544-ac6f-f782803b4522")
+	)
+	(segment
+		(start 113.4125 111.2875)
+		(end 116.0875 108.6125)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM21")
+		(uuid "cab6f549-7ed3-4871-b61f-00e517d178e3")
+	)
+	(segment
+		(start 116.0875 108.6125)
+		(end 117.2875 108.6125)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM21")
+		(uuid "e8959552-9fce-4831-a62d-7a2998c53470")
+	)
+	(segment
+		(start 113.0125 110.9875)
+		(end 116.0375 107.9625)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM22")
+		(uuid "22b238fe-95b4-4f3e-81a9-89ff73e44e9f")
+	)
+	(segment
+		(start 113.7125 117.1275)
+		(end 113.7125 116.471544)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM22")
+		(uuid "406c1b69-b60a-4883-bbda-3c7e9f030054")
+	)
+	(segment
+		(start 116.0375 107.9625)
+		(end 117.2875 107.9625)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM22")
+		(uuid "728bf3e2-51fb-420f-8dd1-bd1c370d4a90")
+	)
+	(segment
+		(start 113.7125 116.471544)
+		(end 113.0125 115.771544)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM22")
+		(uuid "96155a77-3e2d-4b36-a1ff-188b25c710a9")
+	)
+	(segment
+		(start 113.0125 115.771544)
+		(end 113.0125 110.9875)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM22")
+		(uuid "c64085be-2c16-4329-b487-ad71721c2044")
+	)
+	(segment
+		(start 112.6125 116.021544)
+		(end 112.6125 110.6875)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM23")
+		(uuid "02f5dd7f-b8d7-461b-9fe4-a2ad08f01554")
+	)
+	(segment
+		(start 113.0625 117.1275)
+		(end 113.0625 116.471544)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM23")
+		(uuid "338f9e4f-7ac0-499a-a6f4-e8cff5abdd1c")
+	)
+	(segment
+		(start 112.6125 110.6875)
+		(end 115.9875 107.3125)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM23")
+		(uuid "3a4bf578-e3b7-48a3-8ea7-aa0b8f699f4c")
+	)
+	(segment
+		(start 113.0625 116.471544)
+		(end 112.6125 116.021544)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM23")
+		(uuid "decd23fd-aa95-4e26-afd0-5e254912c331")
+	)
+	(segment
+		(start 115.9875 107.3125)
+		(end 117.2875 107.3125)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM23")
+		(uuid "ecff2450-09d9-4c48-b714-6aa81491fd31")
+	)
+	(segment
+		(start 108.7 101.97)
+		(end 106.85 100.12)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM23_5V")
+		(uuid "bceaf73f-6adc-42b1-8f30-a96e98e032d7")
+	)
+	(segment
+		(start 108.7 103.825)
+		(end 108.7 101.97)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM23_5V")
+		(uuid "dc33355b-375d-4efa-a541-0c1252f0c332")
+	)
+	(segment
+		(start 111.5375 106.6625)
+		(end 108.7 103.825)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM23_5V")
+		(uuid "e6b09089-da56-46d0-997b-a063f3d3e414")
+	)
+	(segment
+		(start 106.85 103.399999)
+		(end 106.85 102.66)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM22_5V")
+		(uuid "46cc62ca-db02-406a-a2d1-016ee4ecf210")
+	)
+	(segment
+		(start 111.5375 107.3125)
+		(end 110.762501 107.3125)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM22_5V")
+		(uuid "cd6b4151-19e6-4846-a561-d28361250e05")
+	)
+	(segment
+		(start 110.762501 107.3125)
+		(end 106.85 103.399999)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM22_5V")
+		(uuid "e894d137-a861-4e61-9906-09c1ecde43bc")
+	)
+	(segment
+		(start 109.6125 107.9625)
+		(end 106.85 105.2)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM21_5V")
+		(uuid "5b51b8e1-c90f-419e-b829-e44fb3277320")
+	)
+	(segment
+		(start 111.5375 107.9625)
+		(end 109.6125 107.9625)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM21_5V")
+		(uuid "72815380-02fa-48c8-a594-8b51ac4b71a9")
+	)
+	(segment
+		(start 107.7225 108.6125)
+		(end 106.85 107.74)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM20_5V")
+		(uuid "17d4fad4-886d-45c0-a0dc-ff1de23a644a")
+	)
+	(segment
+		(start 111.5375 108.6125)
+		(end 107.7225 108.6125)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM20_5V")
+		(uuid "fa43b57c-023c-47ea-9551-cc0e9e779582")
+	)
+	(segment
+		(start 111.5375 109.2625)
+		(end 107.8675 109.2625)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM19_5V")
+		(uuid "38ee4467-915f-4940-a006-f1fdb41ce657")
+	)
+	(segment
+		(start 107.8675 109.2625)
+		(end 106.85 110.28)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM19_5V")
+		(uuid "a9c300ce-55b8-4c00-9b0a-676bcda09901")
+	)
+	(segment
+		(start 111.5375 109.9125)
+		(end 109.7575 109.9125)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM18_5V")
+		(uuid "7fbdb203-2b81-4641-b340-3b5298e028b2")
+	)
+	(segment
+		(start 109.7575 109.9125)
+		(end 106.85 112.82)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM18_5V")
+		(uuid "cfe06d27-1959-4ac1-a987-ecb5da563d88")
+	)
+	(segment
+		(start 111.5375 110.5625)
+		(end 110.762501 110.5625)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM17_5V")
+		(uuid "5a9f8f0c-ef26-4ada-9acf-97ea1c3e4829")
+	)
+	(segment
+		(start 110.762501 110.5625)
+		(end 106.85 114.475001)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM17_5V")
+		(uuid "652d9a90-aeb1-4d8f-b5f1-af91ffcc4f5a")
+	)
+	(segment
+		(start 106.85 114.475001)
+		(end 106.85 115.36)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM17_5V")
+		(uuid "b6d3c63b-6c10-405e-b618-31aba621c0e7")
+	)
+	(segment
+		(start 108.7 113.275001)
+		(end 108.7 116.05)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM16_5V")
+		(uuid "4dd404cc-1763-417d-90d7-d99d910c0665")
+	)
+	(segment
+		(start 108.7 116.05)
+		(end 106.85 117.9)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM16_5V")
+		(uuid "9d58d6e3-de76-4d7d-abe6-be86d757a741")
+	)
+	(segment
+		(start 111.5375 111.2125)
+		(end 110.762501 111.2125)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM16_5V")
+		(uuid "b3edb3c4-cd81-4907-966a-8f9f1bc1111f")
+	)
+	(segment
+		(start 110.762501 111.2125)
+		(end 108.7 113.275001)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM16_5V")
+		(uuid "e3c4d37e-8f85-43dd-a50f-b92ab0043fb7")
+	)
+	(segment
+		(start 108.7 78.95)
+		(end 106.85 77.1)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM15_5V")
+		(uuid "7b28081c-94a1-496c-a7ab-49c6b6b72c37")
+	)
+	(segment
+		(start 111.325 83.675)
+		(end 108.7 81.05)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM15_5V")
+		(uuid "86bac02a-de34-45e8-9a02-80340224af76")
+	)
+	(segment
+		(start 108.7 81.05)
+		(end 108.7 78.95)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM15_5V")
+		(uuid "a5bc98e2-3136-41d7-8edf-07040e82fba5")
+	)
+	(segment
+		(start 108.7 82.8)
+		(end 108.7 82.1)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM14_5V")
+		(uuid "1a51982a-ace3-4aa6-931e-354749754268")
+	)
+	(segment
+		(start 110.225 84.325)
+		(end 108.7 82.8)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM14_5V")
+		(uuid "284ec4ee-cdb9-43b7-9307-812e93181440")
+	)
+	(segment
+		(start 108.7 82.1)
+		(end 106.85 80.25)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM14_5V")
+		(uuid "3fe3b18f-6e05-4f91-a9ab-595b5c96aa6b")
+	)
+	(segment
+		(start 111.325 84.325)
+		(end 110.225 84.325)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM14_5V")
+		(uuid "9dfdc939-65dd-4ef4-b6dd-91c73f29d711")
+	)
+	(segment
+		(start 106.85 80.25)
+		(end 106.85 79.64)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM14_5V")
+		(uuid "f7620c9e-f7e5-4545-bd41-d174d2624efe")
+	)
+	(segment
+		(start 109.645 84.975)
+		(end 106.85 82.18)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM13_5V")
+		(uuid "67e47fd3-ecd8-476e-aee7-9a6310b613df")
+	)
+	(segment
+		(start 111.325 84.975)
+		(end 109.645 84.975)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM13_5V")
+		(uuid "ca6e6098-e7f8-4b32-8d19-e136e5a179fd")
+	)
+	(segment
+		(start 107.755 85.625)
+		(end 106.85 84.72)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM12_5V")
+		(uuid "160430ec-c955-4e10-af00-493de0327191")
+	)
+	(segment
+		(start 111.325 85.625)
+		(end 107.755 85.625)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM12_5V")
+		(uuid "2d4b2995-9b1f-4ae0-b8d9-3b86e7956e6f")
+	)
+	(segment
+		(start 111.325 86.275)
+		(end 107.835 86.275)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM11_5V")
+		(uuid "273bc76a-10fd-4bc2-957f-71a22a5411db")
+	)
+	(segment
+		(start 107.835 86.275)
+		(end 106.85 87.26)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM11_5V")
+		(uuid "ecde4100-7028-4425-b71a-58effb975600")
+	)
+	(segment
+		(start 111.325 86.925)
+		(end 109.725 86.925)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM10_5V")
+		(uuid "e1116a5d-bb4b-4b29-aace-2666cc2bf83c")
+	)
+	(segment
+		(start 109.725 86.925)
+		(end 106.85 89.8)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM10_5V")
+		(uuid "f3a2bde1-fc6f-46b6-934e-c8110959d370")
+	)
+	(segment
+		(start 111.325 87.575)
+		(end 110.225 87.575)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM9_5V")
+		(uuid "0881f56f-981b-417b-8425-31b052f60216")
+	)
+	(segment
+		(start 108.7 89.1)
+		(end 108.7 90.49)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM9_5V")
+		(uuid "a116555a-1945-4b3c-8d90-51231f87474d")
+	)
+	(segment
+		(start 110.225 87.575)
+		(end 108.7 89.1)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM9_5V")
+		(uuid "c18f5f28-0ecf-43c3-ba58-df2eceda5a9d")
+	)
+	(segment
+		(start 108.7 90.49)
+		(end 106.85 92.34)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM9_5V")
+		(uuid "d6b1be9b-dece-4b05-8441-a72f122e7777")
+	)
+	(segment
+		(start 109.3 89.475001)
+		(end 109.3 92.43)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM8_5V")
+		(uuid "07c0f38a-a580-40aa-8d17-cce00f2d2131")
+	)
+	(segment
+		(start 110.550001 88.225)
+		(end 109.3 89.475001)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM8_5V")
+		(uuid "1221f33f-7120-4d06-84de-46e1367a57d0")
+	)
+	(segment
+		(start 111.325 88.225)
+		(end 110.550001 88.225)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM8_5V")
+		(uuid "1788cc51-182c-46f0-985d-e0260da58329")
+	)
+	(segment
+		(start 109.3 92.43)
+		(end 106.85 94.88)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "/pwm-driver/PWM8_5V")
+		(uuid "7bf6681a-a387-4da3-a69c-48ae94cc831c")
 	)
 	(embedded_fonts no)
 )

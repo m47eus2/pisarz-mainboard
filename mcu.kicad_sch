@@ -3185,7 +3185,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 82.55) (xy 133.35 82.55)
+			(xy 124.46 82.55) (xy 137.16 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3225,7 +3225,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 85.09) (xy 133.35 85.09)
+			(xy 124.46 85.09) (xy 137.16 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3485,16 +3485,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 80.01) (xy 137.16 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cb615e2-dd1b-43be-811b-995ac47e6205")
-	)
-	(wire
-		(pts
 			(xy 99.06 152.4) (xy 99.06 153.67)
 		)
 		(stroke
@@ -3725,6 +3715,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 77.47) (xy 133.35 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79a9d259-bf60-446a-9a6d-5a48df137428")
+	)
+	(wire
+		(pts
 			(xy 168.91 57.15) (xy 171.45 57.15)
 		)
 		(stroke
@@ -3945,16 +3945,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 77.47) (xy 137.16 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aadbc050-cc47-430f-90f7-09ae19dd719f")
-	)
-	(wire
-		(pts
 			(xy 64.77 107.95) (xy 73.66 107.95)
 		)
 		(stroke
@@ -4102,6 +4092,16 @@
 			(type default)
 		)
 		(uuid "bd736159-c63b-4845-b8a1-e5920bfcc989")
+	)
+	(wire
+		(pts
+			(xy 124.46 80.01) (xy 133.35 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be4812ac-b6b6-402b-841b-db6c38fd495d")
 	)
 	(wire
 		(pts
@@ -4846,7 +4846,7 @@
 	)
 	(hierarchical_label "UART1_TX"
 		(shape output)
-		(at 137.16 80.01 0)
+		(at 137.16 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4934,7 +4934,7 @@
 	)
 	(hierarchical_label "UART1_RX"
 		(shape input)
-		(at 137.16 77.47 0)
+		(at 137.16 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)

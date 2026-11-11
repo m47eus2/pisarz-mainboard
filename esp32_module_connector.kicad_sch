@@ -648,7 +648,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 88.9) (xy 151.13 91.44)
+			(xy 156.21 88.9) (xy 156.21 91.44)
 		)
 		(stroke
 			(width 0)
@@ -658,7 +658,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 96.52) (xy 134.62 93.98)
+			(xy 156.21 96.52) (xy 156.21 93.98)
 		)
 		(stroke
 			(width 0)
@@ -668,7 +668,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 91.44) (xy 153.67 91.44)
+			(xy 156.21 91.44) (xy 163.83 91.44)
 		)
 		(stroke
 			(width 0)
@@ -678,7 +678,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 93.98) (xy 153.67 93.98)
+			(xy 156.21 93.98) (xy 163.83 93.98)
 		)
 		(stroke
 			(width 0)
@@ -688,7 +688,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 96.52) (xy 153.67 96.52)
+			(xy 161.29 106.68) (xy 163.83 106.68)
 		)
 		(stroke
 			(width 0)
@@ -698,7 +698,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 99.06) (xy 153.67 99.06)
+			(xy 133.35 106.68) (xy 135.89 106.68)
 		)
 		(stroke
 			(width 0)
@@ -708,7 +708,7 @@
 	)
 	(hierarchical_label "esp32_TX"
 		(shape output)
-		(at 151.13 99.06 180)
+		(at 133.35 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -720,7 +720,7 @@
 	)
 	(hierarchical_label "esp32_RX"
 		(shape input)
-		(at 151.13 96.52 180)
+		(at 161.29 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -732,7 +732,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 151.13 88.9 0)
+		(at 156.21 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -743,7 +743,7 @@
 		(fields_autoplaced yes)
 		(uuid "8d8af602-01d2-4d7d-be18-c82b04f75094")
 		(property "Reference" "#PWR053"
-			(at 151.13 92.71 0)
+			(at 156.21 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -754,7 +754,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 151.13 83.82 0)
+			(at 156.21 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -764,7 +764,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 88.9 0)
+			(at 156.21 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -775,7 +775,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 88.9 0)
+			(at 156.21 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -786,7 +786,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 151.13 88.9 0)
+			(at 156.21 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -810,7 +810,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x07_Pin")
-		(at 186.69 86.36 0)
+		(at 140.97 99.06 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -818,10 +819,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c890708e-0be7-479a-b7e3-4a0aea9a8b55")
 		(property "Reference" "J12"
-			(at 187.325 73.66 0)
+			(at 140.335 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -831,7 +831,7 @@
 			)
 		)
 		(property "Value" "Conn_01x07_Pin"
-			(at 187.325 76.2 0)
+			(at 140.335 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -841,7 +841,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical"
-			(at 186.69 86.36 0)
+			(at 140.97 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -852,7 +852,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 86.36 0)
+			(at 140.97 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -863,7 +863,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x07, script generated"
-			(at 186.69 86.36 0)
+			(at 140.97 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -905,7 +905,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x07_Pin")
-		(at 214.63 86.36 0)
+		(at 168.91 99.06 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -913,10 +914,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d241cf24-d9e6-48c8-b6ef-605c35f3cc4f")
 		(property "Reference" "J13"
-			(at 215.265 73.66 0)
+			(at 168.275 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -926,7 +926,7 @@
 			)
 		)
 		(property "Value" "Conn_01x07_Pin"
-			(at 215.265 76.2 0)
+			(at 168.275 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -936,7 +936,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical"
-			(at 214.63 86.36 0)
+			(at 168.91 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -947,7 +947,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 86.36 0)
+			(at 168.91 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -958,7 +958,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x07, script generated"
-			(at 214.63 86.36 0)
+			(at 168.91 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1000,7 +1000,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 134.62 96.52 0)
+		(at 156.21 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1011,7 +1011,7 @@
 		(fields_autoplaced yes)
 		(uuid "f2f2d7a7-3a7e-4230-880a-888bdde29807")
 		(property "Reference" "#PWR054"
-			(at 134.62 102.87 0)
+			(at 156.21 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1022,7 +1022,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 134.62 101.6 0)
+			(at 156.21 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1032,7 +1032,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 96.52 0)
+			(at 156.21 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1043,7 +1043,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 96.52 0)
+			(at 156.21 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1054,7 +1054,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 96.52 0)
+			(at 156.21 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

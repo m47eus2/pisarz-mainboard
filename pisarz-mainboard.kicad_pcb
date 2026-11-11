@@ -3833,7 +3833,7 @@
 	(footprint "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
 		(layer "F.Cu")
 		(uuid "35a86735-8fd1-462e-bffc-b25ca18f46d3")
-		(at 135.59 76.78 90)
+		(at 138.64 60.85 -90)
 		(descr "Tactile switch, 6x6 mm, H4.3 mm, gullwing terminals, https://www.e-switch.com/wp-content/uploads/2024/03/TL3301.pdf")
 		(tags "SPST button straight")
 		(property "Reference" "SW3"
@@ -3894,64 +3894,14 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -3.1 -3.1)
-			(end 3.1 -3.1)
+			(start -3.1 3.1)
+			(end 3.1 3.1)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "926d6493-adfd-4212-b69c-07d743b9751a")
-		)
-		(fp_line
-			(start -3.1 -3.1)
-			(end -3.1 -3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "11ade28e-625a-4b66-9211-6a2809e49526")
-		)
-		(fp_line
-			(start 3.1 -3)
-			(end 3.1 -3.1)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ba98d8d0-3f7d-45c1-9b6d-c24d61b1d8fe")
-		)
-		(fp_line
-			(start 3.1 -1.5)
-			(end 3.1 1.5)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1bfeb61c-aef4-437d-ac13-e18ac93a7d39")
-		)
-		(fp_line
-			(start -3.1 -1.5)
-			(end -3.1 1.5)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d8882cd9-2f0c-462e-a9bd-eeba32e2598c")
-		)
-		(fp_line
-			(start 3.1 3.1)
-			(end 3.1 3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "454cb23b-72a9-40c4-8e9e-7c85a034d6e0")
+			(uuid "ec6011cd-2855-4b52-b43c-0516cc45c73b")
 		)
 		(fp_line
 			(start -3.1 3.1)
@@ -3964,14 +3914,64 @@
 			(uuid "d52a3995-65aa-4861-a71f-b821f0b31849")
 		)
 		(fp_line
-			(start -3.1 3.1)
-			(end 3.1 3.1)
+			(start 3.1 3.1)
+			(end 3.1 3)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ec6011cd-2855-4b52-b43c-0516cc45c73b")
+			(uuid "454cb23b-72a9-40c4-8e9e-7c85a034d6e0")
+		)
+		(fp_line
+			(start -3.1 -1.5)
+			(end -3.1 1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d8882cd9-2f0c-462e-a9bd-eeba32e2598c")
+		)
+		(fp_line
+			(start 3.1 -1.5)
+			(end 3.1 1.5)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1bfeb61c-aef4-437d-ac13-e18ac93a7d39")
+		)
+		(fp_line
+			(start 3.1 -3)
+			(end 3.1 -3.1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ba98d8d0-3f7d-45c1-9b6d-c24d61b1d8fe")
+		)
+		(fp_line
+			(start -3.1 -3.1)
+			(end -3.1 -3)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "11ade28e-625a-4b66-9211-6a2809e49526")
+		)
+		(fp_line
+			(start -3.1 -3.1)
+			(end 3.1 -3.1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "926d6493-adfd-4212-b69c-07d743b9751a")
 		)
 		(fp_rect
 			(start -5.85 -3.25)
@@ -4018,7 +4018,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -4.55 -2.25 90)
+			(at -4.55 -2.25 270)
 			(size 2.1 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1785714286)
@@ -4028,7 +4028,7 @@
 			(uuid "ab75a58e-9ec8-460d-92a0-9d285e127e32")
 		)
 		(pad "1" smd roundrect
-			(at 4.55 -2.25 90)
+			(at 4.55 -2.25 270)
 			(size 2.1 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1785714286)
@@ -4038,7 +4038,7 @@
 			(uuid "2bea1a06-f2da-4e65-9290-ad2e601f3cf3")
 		)
 		(pad "2" smd roundrect
-			(at -4.55 2.25 90)
+			(at -4.55 2.25 270)
 			(size 2.1 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1785714286)
@@ -4048,7 +4048,7 @@
 			(uuid "5fe083f5-5b41-42cb-8394-5d7755cebd42")
 		)
 		(pad "2" smd roundrect
-			(at 4.55 2.25 90)
+			(at 4.55 2.25 270)
 			(size 2.1 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1785714286)
@@ -6740,11 +6740,11 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "54d83ac8-6dc0-4a13-a624-dcdecdd32cc9")
-		(at 133.5175 83.52)
+		(at 136.4 68.575 90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
-			(at 0 -1.17 0)
+			(at 0 -1.17 90)
 			(layer "F.SilkS")
 			(uuid "bc1b7ac0-6b23-4a9c-be19-9d3a318c7714")
 			(effects
@@ -6755,7 +6755,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.17 0)
+			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "6637b263-3709-4090-9054-ef79745db6de")
 			(effects
@@ -6766,7 +6766,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d96f4234-9481-495d-b2b1-5768534cdd94")
@@ -6777,7 +6777,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e482f527-15ae-4ab2-a90b-d9d2f6c7656d")
@@ -6788,7 +6788,7 @@
 			)
 		)
 		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "64776247-123b-4071-9b8b-7eb46202622e")
@@ -6854,7 +6854,7 @@
 			(uuid "9cb849cb-2be9-4a48-abc4-98c059428665")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "0ef001d4-8c5d-4eb2-af96-f9b37bf5716e")
 			(effects
@@ -6865,7 +6865,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.5975 0)
+			(at -0.5975 0 90)
 			(size 0.715 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -6874,7 +6874,7 @@
 			(uuid "d3745efc-bbbf-4e66-a15c-cf127024df84")
 		)
 		(pad "2" smd roundrect
-			(at 0.5975 0)
+			(at 0.5975 0 90)
 			(size 0.715 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -13742,7 +13742,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "8f9dcad7-e7ee-4fe0-abe9-7e422e051787")
-		(at 123.8375 68.205)
+		(at 121.3175 68.205)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C10"
@@ -18446,7 +18446,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "d083c2b0-af0f-4baa-8d4a-755350949491")
-		(at 137.58 83.59)
+		(at 138.42 67.925)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R3"
@@ -18604,7 +18604,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "d277c297-4927-4ad7-b2d1-15be1e909ae7")
-		(at 135.69 68.2)
+		(at 131.32 68.2)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C11"
@@ -20561,7 +20561,7 @@
 	(footprint "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
 		(layer "F.Cu")
 		(uuid "e483a77b-15b7-4818-9fdd-916ffeb4ad0e")
-		(at 126.24 60.85 90)
+		(at 123.72 60.85 90)
 		(descr "Tactile switch, 6x6 mm, H4.3 mm, gullwing terminals, https://www.e-switch.com/wp-content/uploads/2024/03/TL3301.pdf")
 		(tags "SPST button straight")
 		(property "Reference" "SW1"
@@ -21117,7 +21117,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "edd355dd-11ad-425e-b508-6be7c63e46fa")
-		(at 127.44 68.2)
+		(at 124.92 68.2)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R1"
@@ -23333,7 +23333,7 @@
 	(footprint "Button_Switch_SMD:SW_Push_1P1T_NO_E-Switch_TL3301NxxxxxG"
 		(layer "F.Cu")
 		(uuid "fb072700-4c7a-4902-acd9-51721cc4102f")
-		(at 135.59 60.85 90)
+		(at 131.22 60.85 90)
 		(descr "Tactile switch, 6x6 mm, H4.3 mm, gullwing terminals, https://www.e-switch.com/wp-content/uploads/2024/03/TL3301.pdf")
 		(tags "SPST button straight")
 		(property "Reference" "SW2"
@@ -23569,6 +23569,136 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(gr_line
+		(start 144.98 55.5)
+		(end 144.98 56.77)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "da32b0fe-f040-43be-a58e-86ab19272717")
+	)
+	(gr_line
+		(start 144.98 56.77)
+		(end 144.98 72.01)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "4dcc6375-f965-4fb8-83a2-52feacde8608")
+	)
+	(gr_line
+		(start 144.98 72.01)
+		(end 144.98 73.28)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "df231e42-1896-483a-abc9-11d4739eb2d5")
+	)
+	(gr_line
+		(start 144.98 73.28)
+		(end 147.98 73.28)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "51dddec2-1dbf-45fa-a12b-612427da72af")
+	)
+	(gr_line
+		(start 147.98 55.5)
+		(end 144.98 55.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "b301669b-975b-42fc-b25a-3c0fa81f51e5")
+	)
+	(gr_line
+		(start 147.98 55.5)
+		(end 163.22 55.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "7e679228-cf5d-4c5d-be9e-34cd6ee3c2b9")
+	)
+	(gr_line
+		(start 147.98 56.77)
+		(end 144.98 56.77)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "7cef0fe9-79f8-44e2-b7ce-b4912fd331fa")
+	)
+	(gr_line
+		(start 147.98 56.77)
+		(end 147.98 55.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "fd3142d5-856b-4394-9531-74bdf318fb51")
+	)
+	(gr_line
+		(start 147.98 72.01)
+		(end 144.98 72.01)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "492730e9-2f5a-4554-9b8b-69986519e204")
+	)
+	(gr_line
+		(start 147.98 72.01)
+		(end 147.98 73.28)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "0aa46962-ee40-4614-aff8-7481abd430de")
+	)
+	(gr_line
+		(start 147.98 73.28)
+		(end 163.22 73.28)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "2b3d0dc2-f5ea-4f58-87e8-6474ffbc1a78")
+	)
+	(gr_line
+		(start 163.22 55.5)
+		(end 163.22 56.77)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "5f8494b3-513a-4b8e-88ce-e84e4f7f04c7")
+	)
+	(gr_line
+		(start 163.22 73.28)
+		(end 163.22 72.01)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "1b048f09-9633-46bc-abe6-155cf558e7cb")
 	)
 	(gr_line
 		(start 100 55)

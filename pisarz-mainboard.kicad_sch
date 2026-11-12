@@ -5,15 +5,27 @@
 	(uuid "3fa3a621-8f50-4a33-bd41-24b098d8d0ef")
 	(paper "A4")
 	(lib_symbols)
+	(junction
+		(at 171.45 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "612c25d5-a8ab-4458-878d-299129a2ac84")
+	)
+	(junction
+		(at 168.91 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfa50cf6-641c-400f-8497-3f06ac5a6470")
+	)
 	(wire
 		(pts
-			(xy 170.18 85.09) (xy 160.02 85.09)
+			(xy 179.07 68.58) (xy 168.91 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0ec3bcce-7246-4c36-b54e-373fd22323a3")
+		(uuid "09792f13-b4f2-4ccc-93b5-525450a4d1e5")
 	)
 	(wire
 		(pts
@@ -37,43 +49,13 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 87.63) (xy 172.72 71.12)
+			(xy 179.07 71.12) (xy 171.45 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "31f4726a-1bd7-447f-83f7-2e3902066e7c")
-	)
-	(wire
-		(pts
-			(xy 170.18 68.58) (xy 170.18 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3948c516-ccb8-450a-b39f-0b80fc9983c8")
-	)
-	(wire
-		(pts
-			(xy 160.02 87.63) (xy 172.72 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44e73fae-8482-4515-b5d8-76a2a1d334b7")
-	)
-	(wire
-		(pts
-			(xy 172.72 71.12) (xy 179.07 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cc81cdd-5d26-46a8-b908-6e88cea447d4")
+		(uuid "429a0396-f644-4106-9cf9-ba95250798f1")
 	)
 	(wire
 		(pts
@@ -197,6 +179,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 71.12) (xy 171.45 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7e05cb6-c623-435d-a259-de62acd3b595")
+	)
+	(wire
+		(pts
 			(xy 160.02 96.52) (xy 179.07 96.52)
 		)
 		(stroke
@@ -207,16 +199,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 68.58) (xy 170.18 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ede838e6-4f84-4cd0-be20-33a2bdb8426d")
-	)
-	(wire
-		(pts
 			(xy 118.11 107.95) (xy 129.54 107.95)
 		)
 		(stroke
@@ -224,6 +206,16 @@
 			(type default)
 		)
 		(uuid "f51f1124-47c0-4036-9420-3d770243b337")
+	)
+	(wire
+		(pts
+			(xy 168.91 68.58) (xy 168.91 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd3bfd3c-592f-4a4e-83ba-cd85a81f60b3")
 	)
 	(sheet
 		(at 179.07 93.98)
@@ -407,26 +399,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "I2C2_SCL" output
-			(at 160.02 85.09 0)
-			(uuid "7a4966a6-7a1b-4c46-8c4a-c9cb3a066d1c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "I2C2_SDA" bidirectional
-			(at 160.02 87.63 0)
-			(uuid "8827ee12-b0bc-4161-b619-ebe956916b40")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(instances

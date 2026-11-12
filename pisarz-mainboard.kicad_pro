@@ -529,8 +529,8 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
         "wire_width": 6
       }
     ],
@@ -682,7 +682,7 @@
         "uuid": "3fa3a621-8f50-4a33-bd41-24b098d8d0ef"
       }
     ],
-    "used_designators": "#FLG1-4,#PWR1-85,C1-28,D1-7,J1-13,R1-24,SW1-3,U1-12,Y1-2",
+    "used_designators": "#FLG1-4,#PWR1-86,C1-28,D1-7,J1-13,R1-24,SW1-3,U1-12,Y1-2",
     "variants": []
   },
   "sheets": [

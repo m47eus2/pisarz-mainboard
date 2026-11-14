@@ -309,6 +309,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -3883,6 +4006,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 133.35) (xy 33.02 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e8ce906-f128-466b-9252-ead05c73162c")
+	)
+	(wire
+		(pts
 			(xy 69.85 48.26) (xy 69.85 49.53)
 		)
 		(stroke
@@ -4120,6 +4253,16 @@
 			(type default)
 		)
 		(uuid "b12d287d-63c1-4c68-9de3-44adf871e571")
+	)
+	(wire
+		(pts
+			(xy 41.91 135.89) (xy 41.91 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b433720e-8c70-44c9-b272-94b370c4002b")
 	)
 	(wire
 		(pts
@@ -5259,7 +5402,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2140d53c-bb21-4229-a863-6ab747c7d712")
-		(property "Reference" "R21"
+		(property "Reference" "R5"
 			(at 35.56 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5323,7 +5466,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/31dc4987-9523-4ae4-af06-c8582b12974d"
-					(reference "R21")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -5598,7 +5741,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34aabc16-d55a-45dc-8750-8e8428630d39")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR018"
 			(at 99.06 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -5658,7 +5801,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/31dc4987-9523-4ae4-af06-c8582b12974d"
-					(reference "#PWR017")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -5676,7 +5819,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3749f011-d56f-4ed1-9961-ddafe36f9abf")
-		(property "Reference" "R22"
+		(property "Reference" "R6"
 			(at 44.45 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5740,7 +5883,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/31dc4987-9523-4ae4-af06-c8582b12974d"
-					(reference "R22")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -7472,7 +7615,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4ddafc3-b624-40a5-9a45-0f8734217585")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR017"
 			(at 66.04 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -7532,7 +7675,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/31dc4987-9523-4ae4-af06-c8582b12974d"
-					(reference "#PWR016")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -7691,6 +7834,85 @@
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/31dc4987-9523-4ae4-af06-c8582b12974d"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 33.02 138.43 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b935ab94-515b-42af-8eef-f64af696e6ad")
+		(property "Reference" "TP1"
+			(at 35.56 140.4619 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SCL"
+			(at 35.56 143.0019 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 27.94 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 33.02 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e991974d-0bfc-430f-a682-62377e52094a")
+		)
+		(instances
+			(project "pisarz-mainboard"
+				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/31dc4987-9523-4ae4-af06-c8582b12974d"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -7864,7 +8086,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca5ccabd-1842-42eb-962b-f661a12a47ac")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR015"
 			(at 33.02 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -7924,7 +8146,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/31dc4987-9523-4ae4-af06-c8582b12974d"
-					(reference "#PWR086")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -8184,7 +8406,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d17a7288-a746-4b00-8129-1d35c29b56ba")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR016"
 			(at 232.41 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -8244,7 +8466,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/31dc4987-9523-4ae4-af06-c8582b12974d"
-					(reference "#PWR015")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -8409,6 +8631,85 @@
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/31dc4987-9523-4ae4-af06-c8582b12974d"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 41.91 143.51 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e79c88e2-2ab3-4220-ae3b-5c2bc0192019")
+		(property "Reference" "TP2"
+			(at 44.45 145.5419 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SDA"
+			(at 44.45 148.0819 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 36.83 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 41.91 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0bf12982-49f1-4f3b-9059-c6f5346fa094")
+		)
+		(instances
+			(project "pisarz-mainboard"
+				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/31dc4987-9523-4ae4-af06-c8582b12974d"
+					(reference "TP2")
 					(unit 1)
 				)
 			)

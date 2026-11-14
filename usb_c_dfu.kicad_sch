@@ -2508,7 +2508,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2f842f56-40a7-432c-8a9a-bf097299b92e")
-		(property "Reference" "R11"
+		(property "Reference" "R13"
 			(at 200.66 69.088 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2570,7 +2570,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/cf797874-899b-4ea5-b16c-e496b3fcc26d"
-					(reference "R11")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -2888,7 +2888,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fbc2957-98af-4681-b90f-b9ca18e1e351")
-		(property "Reference" "C19"
+		(property "Reference" "C17"
 			(at 110.49 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2952,7 +2952,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/cf797874-899b-4ea5-b16c-e496b3fcc26d"
-					(reference "C19")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -2969,7 +2969,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6efefd2b-5008-40dd-a7a9-7ec1a7bcdd7c")
-		(property "Reference" "R12"
+		(property "Reference" "R14"
 			(at 200.66 75.946 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3031,7 +3031,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/cf797874-899b-4ea5-b16c-e496b3fcc26d"
-					(reference "R12")
+					(reference "R14")
 					(unit 1)
 				)
 			)

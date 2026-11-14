@@ -23750,7 +23750,7 @@
 		(layer "Edge.Cuts")
 		(uuid "bc66067f-6e0e-460a-bafc-0cf0793db73c")
 	)
-	(gr_text "Rev 1.0.0"
+	(gr_text "V1.0"
 		(at 129.85 82.78 0)
 		(layer "F.SilkS")
 		(uuid "2d000fe4-cda7-4c31-ba4b-7ce50f612a47")
@@ -23803,7 +23803,7 @@
 		)
 	)
 	(gr_text "SWD CONNECTOR"
-		(at 152.25 77.1 0)
+		(at 152.25 76.75 0)
 		(layer "F.SilkS" knockout)
 		(uuid "113977c7-a47f-4d23-9f5d-680d6027b6a3")
 		(effects
@@ -23832,6 +23832,71 @@
 		(at 157 128.9 0)
 		(layer "F.SilkS" knockout)
 		(uuid "038da275-40be-465b-b90e-ab2d2e11e71c")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "NRST"
+		(at 157.95 78 0)
+		(layer "F.SilkS")
+		(uuid "9f4d2d87-6925-49f1-9314-e6ccc786a655")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "SWCLK"
+		(at 158 80.55 0)
+		(layer "F.SilkS")
+		(uuid "ebbf25e9-74a6-4138-b3e0-13b2ac7de241")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "SWDIO"
+		(at 158 83.1 0)
+		(layer "F.SilkS")
+		(uuid "3be1da6d-cc4a-4662-aa6d-2d7c11e201cd")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 158 85.7 0)
+		(layer "F.SilkS")
+		(uuid "4a574fc3-88cc-4258-bb31-1cd115cfe79f")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "3V3"
+		(at 158.1 88.2 0)
+		(layer "F.SilkS")
+		(uuid "e5dd7ca4-8b9e-4347-af98-f00396600887")
 		(effects
 			(font
 				(size 0.7 0.7)

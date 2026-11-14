@@ -4631,7 +4631,7 @@
 		)
 		(uuid "2c62f3d9-67c5-4804-adc3-5efd7ca93d7d")
 	)
-	(label "PA5"
+	(label "PA10"
 		(at 232.41 107.95 0)
 		(effects
 			(font
@@ -4660,16 +4660,6 @@
 			(justify left bottom)
 		)
 		(uuid "3ee61091-1c75-4460-98a5-05f4d9af7e36")
-	)
-	(label "PB5"
-		(at 64.77 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "42436985-97df-48fd-b181-d8f8047d8e70")
 	)
 	(label "PC13"
 		(at 227.33 60.96 180)
@@ -4700,16 +4690,6 @@
 			(justify right bottom)
 		)
 		(uuid "4b9154d8-b8ac-4c0f-a52d-90a537910c8e")
-	)
-	(label "PB4"
-		(at 64.77 113.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4eb94002-bc54-4633-91af-a1d52216742e")
 	)
 	(label "HSE_OUT"
 		(at 64.77 87.63 0)
@@ -4977,23 +4957,23 @@
 	)
 	(hierarchical_label "UART2_RX"
 		(shape input)
-		(at 137.16 87.63 0)
+		(at 64.77 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "589b0fe7-2d8e-41e9-8d92-15c397f6c85d")
 	)
 	(hierarchical_label "UART2_TX"
 		(shape output)
-		(at 137.16 90.17 0)
+		(at 64.77 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "a5c3b6fb-4f2b-4e1d-84de-bb738185ffe4")
 	)

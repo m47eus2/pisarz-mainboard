@@ -547,7 +547,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "pisarz-mainboard-full.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

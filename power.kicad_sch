@@ -1874,7 +1874,7 @@
 	)
 	(text "Current sensor"
 		(exclude_from_sim no)
-		(at 84.582 76.2 0)
+		(at 79.502 73.152 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -1944,6 +1944,16 @@
 		)
 		(uuid "d1ee8657-71fb-4cd8-b677-062125ce414a")
 	)
+	(text "I2C Address: 1000100 (0x44)"
+		(exclude_from_sim no)
+		(at 84.074 76.708 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e35c763b-42a4-497d-bcdc-37ac7dbad09e")
+	)
 	(junction
 		(at 204.47 76.2)
 		(diameter 0)
@@ -1975,12 +1985,6 @@
 		(uuid "4157a06f-00d1-42db-8efe-b15eb8ab0243")
 	)
 	(junction
-		(at 111.76 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "54dd756b-d8e5-4f2a-9ce4-4de96c3ab7bb")
-	)
-	(junction
 		(at 74.93 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1991,6 +1995,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71ff8950-f016-43a8-83b3-1ce9312665fd")
+	)
+	(junction
+		(at 111.76 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73ab926c-6e77-4898-b3d2-18901a5933ca")
 	)
 	(junction
 		(at 246.38 76.2)
@@ -2250,6 +2260,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 88.9) (xy 118.11 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44b63fde-cfee-4c0c-9f7a-62034e856906")
+	)
+	(wire
+		(pts
 			(xy 59.69 110.49) (xy 54.61 110.49)
 		)
 		(stroke
@@ -2317,6 +2337,16 @@
 			(type default)
 		)
 		(uuid "51a28f0f-aa95-457e-a088-29f6031ccce4")
+	)
+	(wire
+		(pts
+			(xy 111.76 88.9) (xy 111.76 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "567907ba-ee5f-4cbf-a205-b1e983c9ec12")
 	)
 	(wire
 		(pts
@@ -2640,7 +2670,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 88.9) (xy 118.11 88.9)
+			(xy 69.85 88.9) (xy 111.76 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2687,16 +2717,6 @@
 			(type default)
 		)
 		(uuid "d32dfb46-6c5a-4f20-affe-9c0ebaca6b0d")
-	)
-	(wire
-		(pts
-			(xy 111.76 100.33) (xy 111.76 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3f740bb-fde3-4bef-8acf-fcbb3f2d193d")
 	)
 	(wire
 		(pts

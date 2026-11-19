@@ -514,6 +514,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -783,13 +923,13 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 88.9) (xy 156.21 91.44)
+			(xy 156.21 87.63) (xy 156.21 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "109629aa-584f-44b1-addb-839d6168c700")
+		(uuid "38105d10-9c9b-4e67-aa73-61af6bb52597")
 	)
 	(wire
 		(pts
@@ -830,6 +970,16 @@
 			(type default)
 		)
 		(uuid "9c223224-b81f-4c54-9f67-6185171e18d9")
+	)
+	(wire
+		(pts
+			(xy 156.21 77.47) (xy 156.21 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab44c2c9-3d62-474f-97bb-fd3c73e2b523")
 	)
 	(wire
 		(pts
@@ -896,8 +1046,8 @@
 		(uuid "e73a5b50-f396-4f5d-9642-5c2ff78aa8ef")
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 156.21 88.9 0)
+		(lib_id "Device:R")
+		(at 156.21 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -906,30 +1056,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8d8af602-01d2-4d7d-be18-c82b04f75094")
-		(property "Reference" "#PWR071"
-			(at 156.21 92.71 0)
-			(hide yes)
+		(uuid "123c9d64-8f56-4749-a1ab-3e27c413c095")
+		(property "Reference" "R17"
+			(at 158.75 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "VBUS"
-			(at 156.21 83.82 0)
+		(property "Value" "0R"
+			(at 158.75 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 156.21 88.9 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 154.432 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -940,7 +1091,88 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 88.9 0)
+			(at 156.21 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 156.21 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8993b094-d465-4fba-b9ff-dd33e41c9580")
+		)
+		(pin "1"
+			(uuid "87305c0f-6ccd-4a82-95c3-21ddaba5d5e7")
+		)
+		(instances
+			(project "pisarz-mainboard"
+				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/4d2302dd-96c1-4081-a707-3c6abab7239a"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 156.21 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d8af602-01d2-4d7d-be18-c82b04f75094")
+		(property "Reference" "#PWR071"
+			(at 156.21 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 156.21 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -951,7 +1183,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 156.21 88.9 0)
+			(at 156.21 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -985,7 +1217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abde94cd-3947-41f3-a1a9-4b73dbc8ba2f")
-		(property "Reference" "TP11"
+		(property "Reference" "TP6"
 			(at 163.83 111.2519 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1046,7 +1278,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/4d2302dd-96c1-4081-a707-3c6abab7239a"
-					(reference "TP11")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -1064,7 +1296,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b259f50d-e8f5-490f-b59a-d46fb9562034")
-		(property "Reference" "TP10"
+		(property "Reference" "TP5"
 			(at 135.89 111.2519 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1125,7 +1357,7 @@
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef/4d2302dd-96c1-4081-a707-3c6abab7239a"
-					(reference "TP10")
+					(reference "TP5")
 					(unit 1)
 				)
 			)

@@ -2769,16 +2769,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "C11 close to USBLC6"
-		(exclude_from_sim no)
-		(at 192.786 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "359901a9-a376-469e-ad67-ea5c1aa8743e")
-	)
 	(text "USB-UART Bridge"
 		(exclude_from_sim no)
 		(at 81.534 18.542 0)

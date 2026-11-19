@@ -1885,16 +1885,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "C11 close to USBLC6"
-		(exclude_from_sim no)
-		(at 106.426 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2da749c7-03aa-4df9-8e78-a5230b2151b8")
-	)
 	(text "USB-C Connector"
 		(exclude_from_sim no)
 		(at 150.114 20.32 0)

@@ -99,6 +99,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 104.14) (xy 179.07 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eb2b65c-7e09-4bd4-866f-c7095aca370b")
+	)
+	(wire
+		(pts
 			(xy 106.68 99.06) (xy 129.54 99.06)
 		)
 		(stroke
@@ -275,6 +285,16 @@
 				(justify left)
 			)
 		)
+		(pin "PCA9685_~{OE}" input
+			(at 179.07 104.14 180)
+			(uuid "af91fa48-1f5f-4554-840a-bf684430554d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "pisarz-mainboard"
 				(path "/3fa3a621-8f50-4a33-bd41-24b098d8d0ef"
@@ -399,6 +419,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "PCA_OE" input
+			(at 160.02 104.14 0)
+			(uuid "327676c4-4803-48e7-8610-b2f52831e624")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

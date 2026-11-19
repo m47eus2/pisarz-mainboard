@@ -4216,7 +4216,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 90.17) (xy 133.35 90.17)
+			(xy 124.46 90.17) (xy 137.16 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4944,16 +4944,6 @@
 		)
 		(uuid "7e7568e5-dcef-4d40-9ef4-b4e3b84762f6")
 	)
-	(label "PA6"
-		(at 133.35 90.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8475fc54-0074-45a3-a506-1c28b0c905e9")
-	)
 	(label "NRST"
 		(at 172.72 128.27 0)
 		(effects
@@ -5075,6 +5065,17 @@
 			(justify left)
 		)
 		(uuid "36bee424-1085-4524-ae4e-13143a61b21d")
+	)
+	(hierarchical_label "PCA_OE"
+		(shape input)
+		(at 137.16 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "460ac93e-43a2-4a29-a35b-1d2963a57562")
 	)
 	(hierarchical_label "USB_D+"
 		(shape bidirectional)

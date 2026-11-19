@@ -381,46 +381,6 @@
 				(justify right)
 			)
 		)
-		(pin "UART1_RX" input
-			(at 129.54 85.09 180)
-			(uuid "b0d88d32-c77f-4222-acee-b65a65a8695b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "UART1_TX" output
-			(at 129.54 87.63 180)
-			(uuid "6cd9e4f5-4776-42d1-b425-a06413626f69")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "UART2_RX" input
-			(at 129.54 107.95 180)
-			(uuid "7cdbd1c5-0cbe-4497-b3a5-47addb6dbce7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "UART2_TX" output
-			(at 129.54 110.49 180)
-			(uuid "83fe4a46-2051-4853-89ad-1b88cfd27533")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "PCA_OE" input
 			(at 160.02 104.14 0)
 			(uuid "327676c4-4803-48e7-8610-b2f52831e624")
@@ -429,6 +389,46 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "USART2_RX" input
+			(at 129.54 85.09 180)
+			(uuid "57a91071-617d-4b84-950a-2c4aab103a73")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USART2_TX" output
+			(at 129.54 87.63 180)
+			(uuid "218d439d-e281-4901-9e16-c7e404b7385a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USART1_RX" input
+			(at 129.54 107.95 180)
+			(uuid "d01f5055-e3d1-48a9-9cb5-2ff56454799e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USART1_TX" output
+			(at 129.54 110.49 180)
+			(uuid "aec506d4-cff4-4ad1-ac7c-85d07fd1c1ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

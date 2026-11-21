@@ -2830,12 +2830,6 @@
 		(uuid "78478157-4823-46ff-b901-0cd6a0656102")
 	)
 	(junction
-		(at 96.5519 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "794bdab1-6c9a-4679-a4ce-a5410e7b6a46")
-	)
-	(junction
 		(at 96.52 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2870,6 +2864,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8344683-b34c-4aa1-ac0c-2411db9b2854")
+	)
+	(junction
+		(at 96.52 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2ec8bdc-7a03-4fb3-b656-786650db77eb")
 	)
 	(junction
 		(at 234.95 138.43)
@@ -3411,6 +3411,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 87.63) (xy 110.49 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6092ca4-bdfd-47db-9dd1-5928994fcadf")
+	)
+	(wire
+		(pts
 			(xy 177.8 71.12) (xy 177.8 73.66)
 		)
 		(stroke
@@ -3441,7 +3451,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 87.63) (xy 110.49 87.63)
+			(xy 92.71 87.63) (xy 96.52 87.63)
 		)
 		(stroke
 			(width 0)
@@ -5647,7 +5657,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 96.5519 87.63 0)
+		(at 96.52 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5658,7 +5668,7 @@
 		(fields_autoplaced yes)
 		(uuid "bdad64bb-2ff7-418a-b071-519996ae1c67")
 		(property "Reference" "TP3"
-			(at 99.0919 83.0579 0)
+			(at 99.06 83.0579 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5669,7 +5679,7 @@
 			)
 		)
 		(property "Value" "CP2102_TX"
-			(at 99.0919 85.5979 0)
+			(at 99.06 85.5979 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5680,7 +5690,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 101.6319 87.63 0)
+			(at 101.6 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5691,7 +5701,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6319 87.63 0)
+			(at 101.6 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5702,7 +5712,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 96.5519 87.63 0)
+			(at 96.52 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

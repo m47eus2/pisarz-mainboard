@@ -1893,7 +1893,7 @@
 			(remove_unused_layers no)
 			(net "unconnected-(J11-Pin_3-Pad3)")
 			(pinfunction "Pin_3_3")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "871c454c-0ce0-47e3-9699-f5f654b6f92d")
 		)
 		(pad "4" thru_hole circle
@@ -1904,7 +1904,7 @@
 			(remove_unused_layers no)
 			(net "unconnected-(J11-Pin_4-Pad4)")
 			(pinfunction "Pin_4_4")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "07fe64b4-ba4f-4af0-9fcb-8128f2965746")
 		)
 		(pad "5" thru_hole circle
@@ -1915,7 +1915,7 @@
 			(remove_unused_layers no)
 			(net "unconnected-(J11-Pin_5-Pad5)")
 			(pinfunction "Pin_5_5")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "c8068f64-7128-4f2e-9c76-8fbfe5b0423b")
 		)
 		(pad "6" thru_hole circle
@@ -1926,7 +1926,7 @@
 			(remove_unused_layers no)
 			(net "unconnected-(J11-Pin_6-Pad6)")
 			(pinfunction "Pin_6_6")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "46e663ce-9149-40d4-9a4f-50c64171e6b7")
 		)
 		(pad "7" thru_hole circle
@@ -18322,7 +18322,7 @@
 			(remove_unused_layers no)
 			(net "unconnected-(J10-Pin_1-Pad1)")
 			(pinfunction "Pin_1_1")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "37a452fe-c404-4760-9608-80ef4a3db80a")
 		)
 		(pad "2" thru_hole circle
@@ -18333,7 +18333,7 @@
 			(remove_unused_layers no)
 			(net "unconnected-(J10-Pin_2-Pad2)")
 			(pinfunction "Pin_2_2")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "1edac4b9-1e49-4216-be1e-51cc5038dc61")
 		)
 		(pad "3" thru_hole circle
@@ -18344,7 +18344,7 @@
 			(remove_unused_layers no)
 			(net "unconnected-(J10-Pin_3-Pad3)")
 			(pinfunction "Pin_3_3")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "fa17fdeb-0fe0-45f1-931d-3d2c2d377c80")
 		)
 		(pad "4" thru_hole circle
@@ -18355,7 +18355,7 @@
 			(remove_unused_layers no)
 			(net "unconnected-(J10-Pin_4-Pad4)")
 			(pinfunction "Pin_4_4")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "9ba8e735-4153-4442-922a-33e01d01e754")
 		)
 		(pad "5" thru_hole circle
@@ -18366,7 +18366,7 @@
 			(remove_unused_layers no)
 			(net "unconnected-(J10-Pin_5-Pad5)")
 			(pinfunction "Pin_5_5")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "d2bde9dc-b39c-429d-9162-1a4a7eaf2052")
 		)
 		(pad "6" thru_hole circle
@@ -18377,7 +18377,7 @@
 			(remove_unused_layers no)
 			(net "unconnected-(J10-Pin_6-Pad6)")
 			(pinfunction "Pin_6_6")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "9e93811f-f25f-47d3-807e-b9a78dfcede2")
 		)
 		(pad "7" thru_hole circle

@@ -5067,7 +5067,7 @@
 		(uuid "36bee424-1085-4524-ae4e-13143a61b21d")
 	)
 	(hierarchical_label "PCA_OE"
-		(shape input)
+		(shape output)
 		(at 137.16 90.17 0)
 		(effects
 			(font

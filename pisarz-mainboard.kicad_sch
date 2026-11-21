@@ -381,16 +381,6 @@
 				(justify right)
 			)
 		)
-		(pin "PCA_OE" input
-			(at 160.02 104.14 0)
-			(uuid "327676c4-4803-48e7-8610-b2f52831e624")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "USART2_RX" input
 			(at 129.54 85.09 180)
 			(uuid "57a91071-617d-4b84-950a-2c4aab103a73")
@@ -429,6 +419,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "PCA_OE" output
+			(at 160.02 104.14 0)
+			(uuid "9aa2f547-3bc9-4498-b6e8-0bbfcd266e40")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
